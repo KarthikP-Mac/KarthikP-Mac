@@ -1,13 +1,10 @@
 <!-- [![An image of @KarthikP-Mac's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/KarthikP-Mac)](https://holopin.io/@KarthikP-Mac) -->
 
 <h1 align="center">Hi 👋, I'm Karthik Potti</h1>
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=KarthikP-Mac&label=Profile%20views&color=0e75b6&style=flat" alt="KarthikP-Mac" />
-</p>
 
 <p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=KarthikP-Mac&theme=dark_lover" alt="KarthikP-Mac" />
+  <a href="https://github.com/KarthikP-Mac/KarthikP-Mac">
+    <img src="https://github.com/KarthikP-Mac/KarthikP-Mac/?username=KarthikP-Mac&theme=dark_lover" alt="KarthikP-Mac" />
   </a>
 </p>
 
@@ -16,8 +13,15 @@
 - 👨‍💻 Know about me **[karthikp-mac.github.io](https://github.com/KarthikP-Mac)**
 - 🚀 Google Developer Profile **[g.dev/karthikPMac](https://g.dev/karthikPMac)**
 - 🐧 Automation & Scripting **Linux automation using Java & WinSCP**
-- 📄 Know about my experiences **[Karthik's Resume](https://github.com/KarthikP-Mac/KarthikP-Mac/blob/main/Karthik_Potti_Resume.pdf)**
-- 📄 Know about my experiences **[Karthik's Resume](Karthik_Potti_Resume.md)**
+<!-- - 📄 Resume (Live Preview) **[Karthik's Resume](https://karthikp-mac.github.io/KarthikP-Mac/Karthik_Potti_Resume.html)** -->
+<!-- - 📄 Know about my experiences **[Karthik's Resume](https://github.com/KarthikP-Mac/KarthikP-Mac/blob/main/Karthik_Potti_Resume.html)** -->
+- 📄 Resume (Live Preview) **[Karthik's Resume](https://htmlpreview.github.io/?https://github.com/KarthikP-Mac/KarthikP-Mac/blob/main/Karthik_Potti_Resume.html)**
+- 📄 Resume (Markdown) **[Karthik's Resume](Karthik_Potti_Resume.md)**
+
+
+
+
+
 
 <div align="center">
   <a href="https://g.dev/karthikPMac" target="_blank"><img src="https://img.shields.io/badge/Google_Developer_Profile-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Developer Profile" /></a>
