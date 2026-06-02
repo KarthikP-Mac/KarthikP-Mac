@@ -1,4 +1,4 @@
-[![An image of @KarthikP-Mac's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/KarthikP-Mac)](https://holopin.io/@KarthikP-Mac)
+<!-- [![An image of @KarthikP-Mac's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/KarthikP-Mac)](https://holopin.io/@KarthikP-Mac) -->
 
 <h1 align="center">Hi 👋, I'm Karthik Potti</h1>
 <p align="center">
@@ -17,6 +17,7 @@
 - 🚀 Google Developer Profile **[g.dev/karthikPMac](https://g.dev/karthikPMac)**
 - 🐧 Automation & Scripting **Linux automation using Java & WinSCP**
 - 📄 Know about my experiences **[Karthik's Resume](https://github.com/KarthikP-Mac/KarthikP-Mac/blob/main/Karthik_Potti_Resume.pdf)**
+- 📄 Know about my experiences **[Karthik's Resume](Karthik_Potti_Resume.md)**
 
 <div align="center">
   <a href="https://g.dev/karthikPMac" target="_blank"><img src="https://img.shields.io/badge/Google_Developer_Profile-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Developer Profile" /></a>

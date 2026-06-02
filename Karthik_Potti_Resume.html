@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="vKsLioTkuhVswY-CQ8q3Kxjdl7qxVrhWCz6NOSYZGq8" />
+  <meta name="description"
+    content="Karthik Potti, KarthikP-Mac, KarthikP, KarthikPotti842, karthikp-mac, karthikpotti, karthikpotti842-mac, karthik-potti, karthik-potti-842, Karthik Potti - Resume" />
+  <meta name="keywords"
+    content="Karthik Potti, KarthikP-Mac, KarthikP, KarthikPotti842, karthikp-mac, karthikpotti, karthikpotti842-mac, karthik-potti, karthik-potti-842, Karthik Potti - Resume" />
+
+  <title>Karthik Potti - Resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #0f172a;
+      --secondary-color: #475569;
+      --accent-color: #2563eb;
+      --text-color: #1e293b;
+      --light-bg: #f8fafc;
+      --border-color: #e2e8f0;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      color: var(--text-color);
+      line-height: 1.45;
+      background-color: #f1f5f9;
+      padding: 30px 20px;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    .resume-container {
+      max-width: 950px;
+      margin: 0 auto;
+      background: #ffffff;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      border-radius: 12px;
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 280px 1fr;
+    }
+
+    /* Sidebar Styles */
+    .sidebar {
+      background-color: var(--light-bg);
+      color: var(--primary-color);
+      padding: 35px 25px;
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      border-right: 1px solid var(--border-color);
+    }
+
+    .profile-section {
+      text-align: center;
+      border-bottom: 1.5px solid var(--border-color);
+      padding-bottom: 20px;
+    }
+
+    .profile-name {
+      font-size: 24px;
+      font-weight: 800;
+      margin-bottom: 5px;
+      letter-spacing: -0.5px;
+      color: var(--primary-color);
+    }
+
+    .profile-title {
+      font-size: 13px;
+      color: var(--accent-color);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .sidebar-section-title {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--primary-color);
+      margin-bottom: 12px;
+      border-left: 3px solid var(--accent-color);
+      padding-left: 10px;
+    }
+
+    .contact-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      font-size: 13px;
+    }
+
+    .contact-item {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .contact-label {
+      font-weight: 700;
+      color: var(--secondary-color);
+      font-size: 10px;
+      text-transform: uppercase;
+    }
+
+    .contact-value,
+    .contact-value a {
+      color: var(--primary-color);
+      text-decoration: none;
+      word-break: break-all;
+      font-weight: 500;
+    }
+
+    .contact-value a:hover {
+      color: var(--accent-color);
+    }
+
+    .skills-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .skill-badge {
+      background: #e2e8f0;
+      color: var(--primary-color);
+      padding: 3px 6px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 550;
+    }
+
+    .education-item {
+      margin-bottom: 12px;
+    }
+
+    .education-degree {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--primary-color);
+    }
+
+    .education-school {
+      font-size: 12px;
+      color: var(--secondary-color);
+    }
+
+    .education-meta {
+      font-size: 11px;
+      color: var(--accent-color);
+      margin-top: 2px;
+      font-weight: 500;
+    }
+
+    /* Main Content Styles */
+    .main-content {
+      padding: 35px 40px;
+      background: #ffffff;
+    }
+
+    .section {
+      margin-bottom: 25px;
+    }
+
+    .section-title {
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--primary-color);
+      border-bottom: 2px solid var(--border-color);
+      padding-bottom: 6px;
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .summary-text {
+      font-size: 13.5px;
+      color: var(--secondary-color);
+      text-align: justify;
+    }
+
+    .timeline-item {
+      margin-bottom: 20px;
+      position: relative;
+    }
+
+    .timeline-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 5px;
+    }
+
+    .role-title {
+      font-size: 14.5px;
+      font-weight: 750;
+      color: var(--primary-color);
+    }
+
+    .company-name {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--accent-color);
+    }
+
+    .timeline-date {
+      font-size: 11.5px;
+      font-weight: 600;
+      color: var(--secondary-color);
+      background-color: var(--light-bg);
+      padding: 2px 8px;
+      border-radius: 12px;
+      border: 1px solid var(--border-color);
+    }
+
+    .project-card {
+      background-color: var(--light-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      padding: 12px 15px;
+      margin-top: 10px;
+    }
+
+    .project-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 6px;
+    }
+
+    .project-title {
+      font-size: 13.5px;
+      font-weight: 750;
+      color: var(--primary-color);
+    }
+
+    .project-role {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--accent-color);
+      background-color: rgba(37, 99, 235, 0.08);
+      padding: 1px 8px;
+      border-radius: 10px;
+    }
+
+    .bullet-list {
+      list-style-type: square;
+      padding-left: 15px;
+      font-size: 12.5px;
+      color: var(--secondary-color);
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    /* Projects Subsection Styles */
+    .project-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .project-item {
+      border-left: 3px solid var(--border-color);
+      padding-left: 12px;
+      margin-bottom: 5px;
+    }
+
+    .project-item-title {
+      font-size: 13.5px;
+      font-weight: 700;
+      color: var(--primary-color);
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .project-item-tech {
+      font-size: 11px;
+      color: var(--accent-color);
+      font-weight: 600;
+    }
+
+    .project-item-desc {
+      font-size: 12.5px;
+      color: var(--secondary-color);
+      margin-top: 3px;
+    }
+
+    .project-item-link {
+      font-size: 11px;
+      color: var(--accent-color);
+      text-decoration: none;
+      font-weight: 550;
+    }
+
+    .project-item-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Print Styles */
+    @media print {
+      body {
+        background-color: #ffffff;
+        padding: 0;
+      }
+
+      .resume-container {
+        box-shadow: none;
+        border-radius: 0;
+        grid-template-columns: 240px 1fr;
+        width: 100%;
+      }
+
+      .sidebar {
+        background-color: #f8fafc !important;
+        border-right: 1.5px solid #e2e8f0 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+
+      .timeline-date {
+        border: none;
+        background-color: transparent !important;
+        padding: 0;
+      }
+
+      .project-card {
+        background-color: #ffffff !important;
+      }
+
+      .main-content {
+        padding: 30px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="resume-container">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <!-- LEFT SIDEBAR (Low-Ink Light Theme) -->
+    <aside class="sidebar">
+      <div class="profile-section">
+        <h1 class="profile-name">Karthik Potti</h1>
+        <p class="profile-title">Full Stack & AI Developer</p>
+      </div>
+
+      <div>
+        <!-- CONTACT INFO -->
+        <div>
+          <h2 class="sidebar-section-title">Contact</h2>
+          <ul class="contact-list">
+            <li class="contact-item">
+              <span class="contact-label"><i class="fa-solid fa-phone"></i> Phone</span>
+              <span class="contact-value"><a href="tel:+919515759632">+91 9515759632</a></span>
+            </li>
+            <li class="contact-item">
+              <span class="contact-label"><i class="fa-solid fa-envelope"></i> Email</span>
+              <span class="contact-value"><a
+                  href="mailto:karthikpotti842@gmail.com">karthikpotti842@gmail.com</a></span>
+            </li>
+            <li class="contact-item">
+              <span class="contact-label"><i class="fa-solid fa-location-dot"></i> Location</span>
+              <span class="contact-value">Hyderabad, India</span>
+            </li>
+            <li class="contact-item">
+              <span class="contact-label"><i class="fa-brands fa-square-github"></i> GitHub</span>
+              <span class="contact-value"><a href="https://github.com/KarthikP-Mac"
+                  target="_blank">github.com/KarthikP-Mac</a></span>
+            </li>
+            <li class="contact-item">
+              <span class="contact-label"><i class="fa-brands fa-google"></i> Google Dev Profile</span>
+              <span class="contact-value"><a href="https://g.dev/karthikPMac"
+                  target="_blank">g.dev/karthikPMac</a></span>
+            </li>
+          </ul>
+        </div>
+        </ul>
+      </div>
+
+      <!-- SKILLS -->
+      <div>
+        <h2 class="sidebar-section-title">Technical Skills</h2>
+        <div style="display: flex; flex-direction: column; gap: 15px;">
+          <div>
+            <p
+              style="font-size: 10px; color: var(--secondary-color); font-weight: 700; text-transform: uppercase; margin-bottom: 5px;">
+              Languages</p>
+            <div class="skills-group">
+              <span class="skill-badge">Java</span>
+              <span class="skill-badge">Python</span>
+              <span class="skill-badge">JavaScript</span>
+              <span class="skill-badge">TypeScript</span>
+              <span class="skill-badge">C</span>
+              <span class="skill-badge">HTML/CSS</span>
+            </div>
+          </div>
+          <div>
+            <p
+              style="font-size: 10px; color: var(--secondary-color); font-weight: 700; text-transform: uppercase; margin-bottom: 5px;">
+              Frameworks</p>
+            <div class="skills-group">
+              <span class="skill-badge">Spring Boot</span>
+              <span class="skill-badge">React</span>
+              <span class="skill-badge">Angular</span>
+              <span class="skill-badge">Flask</span>
+              <span class="skill-badge">Bootstrap</span>
+              <span class="skill-badge">Tailwind</span>
+              <span class="skill-badge">jQuery</span>
+            </div>
+          </div>
+          <div>
+            <p
+              style="font-size: 10px; color: var(--secondary-color); font-weight: 700; text-transform: uppercase; margin-bottom: 5px;">
+              AI & Automation</p>
+            <div class="skills-group">
+              <span class="skill-badge">LangChain</span>
+              <span class="skill-badge">LangGraph</span>
+              <span class="skill-badge">AutoGen AI</span>
+              <span class="skill-badge">RAG / CRAG</span>
+              <span class="skill-badge">Azure OCR</span>
+              <span class="skill-badge">Logic Apps</span>
+              <span class="skill-badge">Streamlit</span>
+            </div>
+          </div>
+          <div>
+            <p
+              style="font-size: 10px; color: var(--secondary-color); font-weight: 700; text-transform: uppercase; margin-bottom: 5px;">
+              Databases &amp; Tools</p>
+            <div class="skills-group">
+              <span class="skill-badge">Oracle SQL</span>
+              <span class="skill-badge">MySQL</span>
+              <span class="skill-badge">MongoDB</span>
+              <span class="skill-badge">Git</span>
+              <span class="skill-badge">GitHub</span>
+              <span class="skill-badge">Linux</span>
+              <span class="skill-badge">WinSCP</span>
+              <span class="skill-badge">Postman</span>
+              <span class="skill-badge">Maven</span>
+              <span class="skill-badge">Tkinter</span>
+            </div>
+          </div>
+          <div>
+            <p
+              style="font-size: 10px; color: var(--secondary-color); font-weight: 700; text-transform: uppercase; margin-bottom: 5px;">
+              DevOps &amp; Cloud</p>
+            <div class="skills-group">
+              <span class="skill-badge">Docker</span>
+              <span class="skill-badge">Vercel</span>
+              <span class="skill-badge">Render</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- EDUCATION -->
+      <div>
+        <h2 class="sidebar-section-title">Education</h2>
+        <div class="education-item">
+          <p class="education-degree">B.Tech in CSE</p>
+          <p class="education-school">NRI Institute of Technology</p>
+          <p class="education-meta">Graduated: 2021 | CGPA: 7.68</p>
+        </div>
+        <div class="education-item">
+          <p class="education-degree">Diploma (Science & Tech)</p>
+          <p class="education-school">Amrita Sai Institution</p>
+          <p class="education-meta">Graduated: 2018 | 75.2%</p>
+        </div>
+        <div class="education-item">
+          <p class="education-degree">Secondary School</p>
+          <p class="education-school">Ravindra Bharati School</p>
+          <p class="education-meta">Graduated: 2015 | 82.0%</p>
+        </div>
+      </div>
+
+      <!-- LANGUAGES -->
+      <div>
+        <h2 class="sidebar-section-title">Languages</h2>
+        <ul class="contact-list" style="gap: 4px;">
+          <li style="font-size: 12.5px; color: var(--primary-color); font-weight: 500;">English (Professional)</li>
+          <li style="font-size: 12.5px; color: var(--primary-color); font-weight: 500;">Telugu (Native)</li>
+          <li style="font-size: 12.5px; color: var(--primary-color); font-weight: 500;">Hindi (Professional)</li>
+        </ul>
+      </div>
+
+    </aside>
+
+    <!-- RIGHT MAIN CONTENT -->
+    <main class="main-content">
+
+      <!-- SUMMARY -->
+      <section class="section">
+        <h2 class="section-title">Professional Summary</h2>
+        <p class="summary-text">
+          Dedicated Full Stack Developer and AI/Automation Engineer with 4 years of experience at Tata Consultancy
+          Services (TCS) in the BFSI sector. Proven expertise in developing web applications using Angular, React, and
+          Java Spring Boot, automating complex business workflows with GenAI models (LangChain, AutoGen AI, RAG), and
+          implementing secure payment infrastructures. Highly skilled in centralizing APIs, addressing security
+          vulnerabilities, and managing Linux-based automated batch jobs.
+        </p>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section class="section">
+        <h2 class="section-title">Professional Experience</h2>
+
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <div>
+              <span class="role-title">IT Systems Engineer</span><br>
+              <span class="company-name">Tata Consultancy Services (Equitable Financial Life Insurance)</span>
+            </div>
+            <span class="timeline-date">Apr 2022 - Present</span>
+          </div>
+
+          <!-- PROJECT 1 -->
+          <div class="project-card">
+            <div class="project-header">
+              <span class="project-title">GenAI Project: Upsell, Cross Sell & Operational Call Intelligence</span>
+              <span class="project-role">AI & Automation Engineer</span>
+            </div>
+            <ul class="bullet-list">
+              <li>Built and optimized advanced data processing pipelines using <strong>Python</strong>,
+                <strong>LangChain</strong>, and <strong>RAG</strong> to analyze call data and extract client insights.
+              </li>
+              <li>Automated report compilation and scheduled email distribution to stakeholders using <strong>AutoGen
+                  AI</strong> and <strong>Microsoft Logic Apps</strong>, reducing manual effort significantly.</li>
+              <li>Designed and implemented a <strong>Python-based OCR automation service</strong> allowing automated
+                transaction processing from user PDF uploads.</li>
+              <li>Collaborated with cross-functional teams to integrate AI models into existing enterprise systems to
+                improve client engagement.</li>
+              <li>Built the GenAI application using <strong>Flask</strong> (backend) and <strong>React</strong>
+                (frontend), and integrated <strong>Power BI</strong> dashboards to visualise statistical workflow
+                details and operational metrics.</li>
+            </ul>
+          </div>
+
+
+          <!-- PROJECT 2 -->
+          <div class="project-card">
+            <div class="project-header">
+              <span class="project-title">Java Project: Latte Rewrite & ACH Integration</span>
+              <span class="project-role">Full Stack Developer</span>
+            </div>
+            <ul class="bullet-list">
+              <li>Developed modern, highly responsive frontend layouts in <strong>Angular</strong> and implemented
+                enterprise-level backend services using <strong>Java Spring Boot</strong> for ACH payment integrations.
+              </li>
+              <li>Orchestrated vulnerability remediations across critical financial APIs by building custom Java-based
+                patching utilities centralized into a single shared <strong>Maven JAR</strong>, reducing compliance
+                turnaround time and duplicate code changes across the ecosystem.</li>
+              <li>Managed background automation batch processes in a <strong>Linux</strong> environment, utilising
+                <strong>WinSCP</strong> for secure data transmittal and log analysis.
+              </li>
+            </ul>
+            <ul class="bullet-list">
+              <li>Developed and maintained Angular components and RESTful APIs using Spring Boot, enabling seamless
+                UI‑backend integration and enhancing user experience.</li>
+              <li>Resolved 100+ application vulnerabilities as part of Equitable’s Vulnerability Remediation Team,
+                improving overall system security and compliance.</li>
+              <li>Designed secure APIs & UI using JWT‑based authentication and role‑based authorization, ensuring 100%
+                compliance in internal security audits.</li>
+              <li>Streamlined CI/CD pipelines using Azure DevOps and GitHub, reducing manual deployment efforts by 70%
+                and enabling faster releases.</li>
+              <li>Implemented centralized logging and exception handling with Azure Kubernetes loggers, improving error
+                traceability.</li>
+            </ul>
+          </div>
+        </div>
+
+
+
+        <!-- PROJECT -->
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-title">Cross-Project Contributions</span>
+            <span class="project-role"></span>
+          </div>
+          <ul class="bullet-list">
+            <li>Developed and maintained <strong>Angular</strong> and <strong>React</strong> components alongside
+              RESTful APIs using <strong>Spring Boot</strong> and <strong>Flask</strong>, enabling seamless UI‑backend
+              integration and enhancing user experience.</li>
+            <li>Resolved 100+ application vulnerabilities as part of Equitable’s Vulnerability Remediation Team,
+              improving overall system security and compliance (Veracode scan).</li>
+            <li>Designed secure APIs & UI using JWT‑based authentication and role‑based authorization, ensuring 100%
+              compliance in internal security audits.</li>
+            <li>Streamlined CI/CD pipelines using Azure DevOps and GitHub, reducing manual deployment efforts by 70%
+              and
+              enabling faster releases.</li>
+            <li>Implemented centralized logging and exception handling with Azure Kubernetes loggers, improving error
+              traceability.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- PROJECTS & PORTFOLIO -->
+      <section class="section">
+        <h2 class="section-title">Projects & Portfolio</h2>
+
+        <div class="project-grid">
+
+          <!-- Web-RTC -->
+          <div class="project-item">
+            <div class="project-item-title">
+              <span>Web-RTC (Live Random Video Calls)</span>
+              <a href="https://web-rtc-lq00.onrender.com/" class="project-item-link" target="_blank">Live Demo</a>
+            </div>
+            <span class="project-item-tech">React | WebRTC | Node.js | Socket.io</span>
+            <p class="project-item-desc">Developed a Zoom-like web application supporting peer-to-peer video calls,
+              screen-sharing, signaling handling, and media controls.</p>
+          </div>
+
+          <!-- Web-Sockets -->
+          <div class="project-item">
+            <div class="project-item-title">
+              <span>Web-Sockets (Live Chats)</span>
+              <a href="https://web-sockets-ju5x.onrender.com/" class="project-item-link" target="_blank">Live Demo</a>
+            </div>
+            <span class="project-item-tech">Spring Boot | WebSocket (STOMP) | React</span>
+            <p class="project-item-desc">Built a real-time messaging service ensuring reliable end-to-end delivery of
+              chat messages with active connection tracking.</p>
+          </div>
+
+          <!-- BFSI-Insurance-Ai-Agent -->
+          <div class="project-item">
+            <div class="project-item-title">
+              <span>BFSI-Insurance-Ai-Agent (Banking AI Copilot)</span>
+              <a href="https://karthikp-mac-banking-ai-copilot.hf.space/" class="project-item-link" target="_blank">Live
+                Demo</a>
+            </div>
+            <span class="project-item-tech">Python | LangChain | FAISS | Streamlit | Groq | Gemini | OpenAI</span>
+            <p class="project-item-desc">Developed a domain-specific financial AI assistant that answers banking-related
+              queries using a robust RAG pipeline with custom recursive text splitters.</p>
+          </div>
+
+          <!-- React & ExpressNode Institution Portal -->
+          <div class="project-item">
+            <div class="project-item-title">
+              <span>Institution Portal (React UI & ExpressNode Backend)</span>
+              <a href="https://adarsh-computers.vercel.app/" class="project-item-link" target="_blank">Live Website</a>
+            </div>
+            <span class="project-item-tech">React | Node.js | Express | MongoDB | Tailwind CSS</span>
+            <p class="project-item-desc">Developed a full stack institution web portal to manage courses, student
+              records, and public communications.</p>
+          </div>
+
+          <!-- First-Web-Site -->
+          <div class="project-item">
+            <div class="project-item-title">
+              <span>First-Web-Site</span>
+            </div>
+            <span class="project-item-tech">HTML | CSS | JavaScript | jQuery | Bootstrap</span>
+            <p class="project-item-desc">Designed and built the initial responsive web portal and landing pages for the
+              computer institution.</p>
+          </div>
+
+          <!-- Smart_Stocker -->
+          <div class="project-item">
+            <div class="project-item-title">
+              <span>Smart_Stocker</span>
+            </div>
+            <span class="project-item-tech">Python | Tkinter</span>
+            <p class="project-item-desc">Developed a portable desktop ledger application for business inventory tracking
+              and financial accounting.</p>
+          </div>
+
+          <!-- Python-Pdf -->
+          <div class="project-item">
+            <div class="project-item-title">
+              <span>Python-Pdf</span>
+            </div>
+            <span class="project-item-tech">Python | Tkinter | OS APIs</span>
+            <p class="project-item-desc">Built a desktop utility for batch PDF creation via folder selection, extracting
+              text content, and exporting embedded images.</p>
+          </div>
+
+          <!-- Auto_Power_Off_Timer -->
+          <div class="project-item">
+            <div class="project-item-title">
+              <span>Auto_Power_Off_Timer</span>
+            </div>
+            <span class="project-item-tech">Python | Tkinter | Windows OS APIs</span>
+            <p class="project-item-desc">Created a utility software that schedules PC power events (sleep, restart,
+              shutdown) dynamically or based on custom timers.</p>
+          </div>
+
+          <!-- Calculator -->
+          <div class="project-item">
+            <div class="project-item-title">
+              <span>Calculator</span>
+            </div>
+            <span class="project-item-tech">HTML5 | CSS3 | JavaScript</span>
+            <p class="project-item-desc">Designed a responsive, standard web calculator with clean UI.</p>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+</body>
+
+</html>
