@@ -9,14 +9,16 @@
 </p>
 
 - 💬 Ask me about **React, Angular, Typescript, Javascript, Java, Spring Boot, Node.js, Flask, Python and AI Agents.**
-- 📫 How to reach me **karthikpotti842@gmail.com**
-- 👨‍💻 Know about me **[karthikp-mac.github.io](https://github.com/KarthikP-Mac)**
-- 🚀 Google Developer Profile **[g.dev/karthikPMac](https://g.dev/karthikPMac)**
+- 📫 How to reach me **<a href="mailto:karthikpotti842@gmail.com" target="_blank">karthikpotti842@gmail.com</a>**
+- 👨‍💻 Know about me **<a href="https://github.com/KarthikP-Mac" target="_blank">karthikp-mac.github.io</a>**
+- 🚀 Google Developer Profile **<a href="https://g.dev/karthikPMac" target="_blank">g.dev/karthikPMac</a>**
 - 🐧 Automation & Scripting **Linux automation using Java & WinSCP**
 <!-- - 📄 Resume (Live Preview) **[Karthik's Resume](https://karthikp-mac.github.io/KarthikP-Mac/Karthik_Potti_Resume.html)** -->
 <!-- - 📄 Know about my experiences **[Karthik's Resume](https://github.com/KarthikP-Mac/KarthikP-Mac/blob/main/Karthik_Potti_Resume.html)** -->
-- 📄 Resume (Live Preview) **[Karthik's Resume](https://htmlpreview.github.io/?https://github.com/KarthikP-Mac/KarthikP-Mac/blob/main/Karthik_Potti_Resume.html)**
-- 📄 Resume (Markdown) **[Karthik's Resume](Karthik_Potti_Resume.md)**
+<!-- - 📄 Resume (Live Preview) **[Karthik's Resume](https://htmlpreview.github.io/?https://github.com/KarthikP-Mac/KarthikP-Mac/blob/main/Karthik_Potti_Resume.html)**
+- 📄 Resume (Markdown) **[Karthik's Resume](Karthik_Potti_Resume.md)** -->
+- 📄 Resume (Live Preview) **<a href="https://htmlpreview.github.io/?https://github.com/KarthikP-Mac/KarthikP-Mac/blob/main/Karthik_Potti_Resume.html" target="_blank">Karthik's Resume</a>**
+- 📄 Resume (Markdown) **<a href="Karthik_Potti_Resume.md" target="_blank">Karthik's Resume</a>**
 
 
 
@@ -28,7 +30,8 @@
   <a href="https://www.linkedin.com/in/karthik-potti" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://github.com/KarthikP-Mac" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="https://twitter.com/KarthikP_Mac" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" /></a>
-  <a href="https://instagram.com/karthik_potti" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="https://instagram.com/pottikarthik" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="https://www.facebook.com/profile.php?id=100009020761119" target="_blank"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" /></a>
   <a href="mailto:karthikpotti842@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
 </div>
 
