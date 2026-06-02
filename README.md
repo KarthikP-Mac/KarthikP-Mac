@@ -177,11 +177,13 @@
   &nbsp;
   <img align="center" height="180em" src="https://github-readme-stats-git-master-anuraghazra.vercel.app/api?username=KarthikP-Mac&show_icons=true&locale=en&theme=dark" alt="KarthikP-Mac" />
 </p> -->
+<img align="center" src="https://metrics.lecoq.io/KarthikP-Mac?template=classic&base=header%2Cactivity%2Ccommunity%2Crepositories&languages=1&languages.limit=8&languages.colors=github&config.timezone=Asia%2FKolkata" alt="GitHub Metrics" width="100%" />
+
   <img align="center" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KarthikP-Mac&layout=compact&theme=dark&cache_seconds=86400" alt="KarthikP-Mac" />
   &nbsp;
   <img align="center" height="180em" src="https://github-readme-stats.vercel.app/api?username=KarthikP-Mac&show_icons=true&locale=en&theme=dark&cache_seconds=86400" alt="KarthikP-Mac" />
+<!-- <img align="center" src="github-metrics.svg" alt="GitHub Metrics" width="100%" /> -->
 </p>
-
 <p align="center">
   <img align="center" height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=KarthikP-Mac&theme=dark" alt="KarthikP-Mac" />
 </p>
