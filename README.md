@@ -171,9 +171,9 @@
 
 <h3 align="center">GitHub Statistics</h3>
 <p align="center">
-  <img align="center" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KarthikP-Mac&layout=compact&theme=dark" alt="KarthikP-Mac" />
+  <img align="center" height="180em" src="https://github-readme-stats-git-master-anuraghazra.vercel.app/api/top-langs/?username=KarthikP-Mac&layout=compact&theme=dark" alt="KarthikP-Mac" />
   &nbsp;
-  <img align="center" height="180em" src="https://github-readme-stats.vercel.app/api?username=KarthikP-Mac&show_icons=true&locale=en&theme=dark" alt="KarthikP-Mac" />
+  <img align="center" height="180em" src="https://github-readme-stats-git-master-anuraghazra.vercel.app/api?username=KarthikP-Mac&show_icons=true&locale=en&theme=dark" alt="KarthikP-Mac" />
 </p>
 
 <p align="center">
