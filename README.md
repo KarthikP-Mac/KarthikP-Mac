@@ -44,7 +44,9 @@
 *   **Web-RTC (Live Random Video Calls)**
     *   *Description:* Real-time video calling application with media controls, peer-to-peer streaming, and screen sharing.
     *   *Live Demo:* [web-rtc-lq00.onrender.com](https://web-rtc-lq00.onrender.com/)
-    *   *Tech Stack:* ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+    *   *Tech Stack:* ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white)
+    ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white) ![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socket.io&logoColor=white) [![Render](https://img.shields.io/badge/Render-333333?style=for-the-badge)](https://render.com)
+     <!-- ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white) -->
     
     <a href="https://web-rtc-lq00.onrender.com/" target="_blank">
       <img src="assets/webrtc_preview%201.png" width="100%" alt="WebRTC Video Calls Preview" style="border-radius: 8px; margin: 10px 0;" />
@@ -53,7 +55,8 @@
 *   **Web-Sockets (Live Chats)**
     *   *Description:* Real-time instant messaging application ensuring reliable end-to-end delivery of chat messages.
     *   *Live Demo:* [web-sockets-ju5x.onrender.com](https://web-sockets-ju5x.onrender.com/)
-    *   *Tech Stack:* ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white) ![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socket.io&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+    *   *Tech Stack:* [![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)](https://angular.dev/) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white) ![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socket.io&logoColor=white) [![Render](https://img.shields.io/badge/Render-333333?style=for-the-badge)](https://render.com)
+    <!-- ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) -->
     
     <a href="https://web-sockets-ju5x.onrender.com/" target="_blank">
       <img src="assets/websockets_preview%201.png" width="100%" alt="WebSockets Chat Preview" style="border-radius: 8px; margin: 10px 0;" />
@@ -64,9 +67,9 @@
 ### 🤖 Artificial Intelligence & RAG Agents (Public)
 
 *   **BFSI-Insurance-Ai-Agent (Banking AI Copilot)**
-    *   *Description:* An intelligent finance & banking AI assistant that answers domain-specific queries. Leverages a robust RAG pipeline with a custom recursive character splitter and FAISS vector database.
+    *   *Description:* An intelligent finance & banking AI assistant that answers domain-specific queries. Leverages a robust CRAG pipeline with a custom recursive character splitter and FAISS vector database.
     *   *Live Demo:* [karthikp-mac-banking-ai-copilot.hf.space](https://karthikp-mac-banking-ai-copilot.hf.space/)
-    *   *Tech Stack:* ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![FAISS](https://img.shields.io/badge/FAISS-blue?style=flat-square) ![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97_Hugging_Face-yellow?style=flat-square)
+    *   *Tech Stack:* ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![FAISS](https://img.shields.io/badge/FAISS-blue?style=flat-square) ![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97_Hugging_Face-yellow?style=flat-square) `CRag`
     *   *LLM Models Supported:* Groq, Gemini, OpenAI, Claude.
     
     <a href="https://karthikp-mac-banking-ai-copilot.hf.space/" target="_blank">
@@ -80,8 +83,12 @@
 *   **Adarsh Computers Portal**
     *   *Description:* A comprehensive educational portal built for an institution to manage courses, students, and announcements.
     *   *Live Website:* [adarsh-computers.vercel.app](https://adarsh-computers.vercel.app/)
-    *   *Frontend Tech:* ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-    *   *Backend Tech:* ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![Express](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+    *   *Frontend Tech:* ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) 
+    ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
+    ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+    *   *Backend Tech:* ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![Express](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white) [![Render](https://img.shields.io/badge/Render-333333?style=for-the-badge)](https://render.com) `SMTP`
+    <!-- ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)  -->
+    <!-- ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) -->
     
     <a href="https://adarsh-computers.vercel.app/" target="_blank">
       <img src="assets/institute_preview%202.png" width="100%" alt="Adarsh Computers Preview" style="border-radius: 8px; margin: 10px 0;" />
@@ -98,22 +105,90 @@
 *   **Smart Stocker (Ledger Application)**
     *   *Description:* Portable software for stock, ledger, and sales entry tracking built with Python's GUI framework.
     *   *Tech Stack:* ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Tkinter](https://img.shields.io/badge/Tkinter-GUI-blue?style=flat-square)
+    
+    <a href="#">
+      <img src="assets/smart_stocker.png" width="100%" alt="Smart Stocker Preview" style="border-radius: 8px; margin: 10px 0;" />
+    </a>
+    
+    *Application Output & Report Showcase:*
+    <table>
+      <tr>
+        <td width="50%"><b>Customer Bill</b><br/><img src="assets/customer_bill.png" width="100%" alt="Customer Bill" style="border-radius: 4px;" /></td>
+        <td width="50%"><b>Purchase Order</b><br/><img src="assets/po.png" width="100%" alt="Purchase Order" style="border-radius: 4px;" /></td>
+      </tr>
+      <tr>
+        <td width="50%"><b>Monthly Profit Report (Setup)</b><br/><img src="assets/monthly_profit_report_start.png" width="100%" alt="Monthly Profit Report Start" style="border-radius: 4px;" /></td>
+        <td width="50%"><b>Monthly Profit Report (Export)</b><br/><img src="assets/monthly_profit_report_end.png" width="100%" alt="Monthly Profit Report End" style="border-radius: 4px;" /></td>
+      </tr>
+    </table>
 
 *   **Python-Pdf Utility**
-    *   *Description:* Utility for generating PDFs from directories, selecting files, and extracting text or images.
-    *   *Tech Stack:* ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) `PyPDF` `ReportLab`
+    *   *Description:* Utility for generating PDFs from directories, selecting files/folders, and extracting text or images.
+    *   *Tech Stack:* ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) `PyPDF` `ReportLab` ![Tkinter](https://img.shields.io/badge/Tkinter-GUI-blue?style=flat-square)
+    
+    <a href="#">
+      <img src="assets/pdf_generator.png" width="100%" alt="Python-Pdf Preview" style="border-radius: 8px; margin: 10px 0;" />
+    </a>
 
 *   **Auto Power Off Timer**
     *   *Description:* Portable utility to easily schedule automatic sleep, shutdown, or restart commands on Windows PCs.
-    *   *Tech Stack:* ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white)
+    *   *Tech Stack:* ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white) ![Tkinter](https://img.shields.io/badge/Tkinter-GUI-blue?style=flat-square)
+    
+    <a href="#">
+      <img src="assets/custom_timer.png" width="100%" alt="Auto Power Off Timer Preview" style="border-radius: 8px; margin: 10px 0;" />
+    </a>
 
 ---
 
-### 🧮 Other Projects
+### 💻 Other Projects
+
+*   **Movie Seat Booking**
+    *   *Description:* Interactive movie theater seat booking interface with real-time seat selection, ticket price calculations, and local storage state persistence.
+    *   *Tech Stack:* ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+*   **DOM Array Methods Dashboard**
+    *   *Description:* Dynamic dashboard demonstrating functional programming array methods (`map`, `filter`, `sort`, `reduce`) to fetch random users and calculate total net wealth.
+    *   *Tech Stack:* ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+*   **Exchange Rate Calculator**
+    *   *Description:* Real-time foreign exchange rate calculator that fetches live currencies from a third-party API and handles direct conversions.
+    *   *Tech Stack:* ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+*   **Custom Video Player**
+    *   *Description:* Custom-styled HTML5 media player showcasing play/pause states, interactive progress slider, timestamp display, and volume control interface.
+    *   *Tech Stack:* ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+*   **Form Validator**
+    *   *Description:* Modern client-side form registration validation utility with dynamic success/error styling and input validation checks.
+    *   *Tech Stack:* ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+*   **Menu Slider & Modal**
+    *   *Description:* Smooth UI navigation layout showing a slide-out sidebar overlay and styled transaction modal dialogs using CSS transitions.
+    *   *Tech Stack:* ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
 *   **Calculator**
     *   *Description:* A beautiful, responsive standard web calculator with clean UI.
     *   *Tech Stack:* ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+*   **JSON Card Generator**
+    *   *Description:* Dynamically renders styled product cards from a JSON data array using JavaScript DOM manipulation, featuring images, descriptions, and pricing.
+    *   *Tech Stack:* ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+*   **Click-to-Toggle Visibility UI**
+    *   *Description:* Interactive toggle component that reveals and hides content sections on click, demonstrating JavaScript event-driven DOM visibility control.
+    *   *Tech Stack:* ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+*   **HTML Frameset Navigation**
+    *   *Description:* Multi-frame HTML layout using framesets with a navigation menu that targets and loads different pages (including external URLs) into specific frames.
+    *   *Tech Stack:* ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+
+*   **ParcelYogi Landing Page Clone**
+    *   *Description:* Pixel-perfect responsive landing page clone of a shipping service website, featuring hero sections, call-to-action buttons, and custom Google Fonts.
+    *   *Tech Stack:* ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+
+*   **Responsive Product Comparison Page**
+    *   *Description:* Multi-breakpoint responsive product comparison layout with media queries targeting different screen sizes, showcasing CSS-only adaptive design patterns.
+    *   *Tech Stack:* ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
 ---
 
@@ -180,11 +255,12 @@
   &nbsp;
   <img align="center" height="180em" src="https://github-readme-stats-git-master-anuraghazra.vercel.app/api?username=KarthikP-Mac&show_icons=true&locale=en&theme=dark" alt="KarthikP-Mac" />
 </p> -->
+<!-- metrics.lecoq.io removed — service is unreliable and shows stale/incorrect repo counts -->
 <img align="center" src="https://metrics.lecoq.io/KarthikP-Mac?template=classic&base=header%2Cactivity%2Ccommunity%2Crepositories&languages=1&languages.limit=8&languages.colors=github&config.timezone=Asia%2FKolkata" alt="GitHub Metrics" width="100%" />
 
-  <img align="center" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KarthikP-Mac&layout=compact&theme=dark&cache_seconds=86400" alt="KarthikP-Mac" />
+  <img align="center" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KarthikP-Mac&layout=compact&theme=dark&count_private=true&cache_seconds=1800" alt="KarthikP-Mac" />
   &nbsp;
-  <img align="center" height="180em" src="https://github-readme-stats.vercel.app/api?username=KarthikP-Mac&show_icons=true&locale=en&theme=dark&cache_seconds=86400" alt="KarthikP-Mac" />
+  <img align="center" height="180em" src="https://github-readme-stats.vercel.app/api?username=KarthikP-Mac&show_icons=true&locale=en&theme=dark&count_private=true&include_all_commits=true&cache_seconds=1800" alt="KarthikP-Mac" />
 <!-- <img align="center" src="github-metrics.svg" alt="GitHub Metrics" width="100%" /> -->
 </p>
 <p align="center">
