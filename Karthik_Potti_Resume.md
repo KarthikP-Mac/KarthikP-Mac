@@ -76,6 +76,13 @@ Dedicated Full Stack Developer and AI/Automation Engineer with 4 years of experi
 *   **Live Demo:** [web-sockets-ju5x.onrender.com](https://web-sockets-ju5x.onrender.com/)
 *   Built a real-time messaging service ensuring reliable end-to-end delivery of chat messages with active connection tracking.
 
+#### **Sticky-Notes [Public]**
+*Tech: React 19, PWA (Progressive Web App), Firebase Firestore, LocalStorage, CSS3, Lucide React*
+*   **Live Demo:** [stickynotes-pk-mac.vercel.app](https://stickynotes-pk-mac.vercel.app/)
+*   Engineered a Progressive Web App (PWA) digital board featuring multi-modal layout views (Interactive Corkboard Canvas and Kanban Grid View) to organize and manage task notes.
+*   Implemented custom drag-and-drop operations for priorities sorting, tag category assignments, and a trash bin deletion system.
+*   Configured Firebase Firestore offline caching with a multi-tab synchronization manager to ensure data persistence and reliable real-time updates.
+
 ### **Institutional Web Portals**
 
 #### **Adarsh Computers Portal (React & ExpressNode) [Private]**

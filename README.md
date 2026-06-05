@@ -62,6 +62,15 @@
       <img src="assets/websockets_preview%201.png" width="100%" alt="WebSockets Chat Preview" style="border-radius: 8px; margin: 10px 0;" />
     </a>
 
+*   **Sticky-Notes**
+    *   *Description:* Progressive Web App (PWA) designed as an interactive digital corkboard and kanban board, featuring free-form draggable note cards, coordinates persistence, custom tag categorizations, and multi-tab database sync.
+    *   *Live Demo:* [stickynotes-pk-mac.vercel.app](https://stickynotes-pk-mac.vercel.app/)
+    *   *Tech Stack:* ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=progressive-web-apps&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+    
+    <a href="https://stickynotes-pk-mac.vercel.app/" target="_blank">
+      <img src="assets/stickynotes.png" width="100%" alt="Sticky-Notes Preview" style="border-radius: 8px; margin: 10px 0;" />
+    </a>
+
 ---
 
 ### 🤖 Artificial Intelligence & RAG Agents (Public)
