@@ -27,12 +27,14 @@
 
 <div align="center">
   <a href="https://g.dev/karthikPMac" target="_blank"><img src="https://img.shields.io/badge/Google_Developer_Profile-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Developer Profile" /></a>
-  <a href="https://www.linkedin.com/in/karthik-potti" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="http://www.linkedin.com/in/karthik-potti842" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://github.com/KarthikP-Mac" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://twitter.com/KarthikP_Mac" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" /></a>
+  <a href="https://twitter.com/KarthikP_Mac" target="_blank"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
   <a href="https://instagram.com/pottikarthik" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
   <a href="https://www.facebook.com/profile.php?id=100009020761119" target="_blank"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" /></a>
-  <a href="mailto:karthikpotti842@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
+  <a href="https://mail.google.com/mail/?view=cm&to=karthikpotti842@gmail.com&su=GitHub%20Profile%20Inquiry&body=Hi%20Karthik%2C%0A%0AI+came+across+your+GitHub+profile+and+would+love+to+connect+regarding+opportunities%2C+collaborations%2C+or+interesting+projects.%0A%0ALooking+forward+to+hearing+from+you."><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
+  <a href="https://www.hackerrank.com/karthikpotti842" target="_blank"><img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank" /></a>
+  <a href="https://discordapp.com/users/karthikp_mac" target="_blank"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 </div>
 
 ---
@@ -65,7 +67,7 @@
 *   **Sticky-Notes**
     *   *Description:* Progressive Web App (PWA) designed as an interactive digital corkboard and kanban board, featuring free-form draggable note cards, coordinates persistence, custom tag categorizations, and multi-tab database sync.
     *   *Live Demo:* [stickynotes-pk-mac.vercel.app](https://stickynotes-pk-mac.vercel.app/)
-    *   *Tech Stack:* ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=progressive-web-apps&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+    *   *Tech Stack:* ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=progressive-web-apps&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
     
     <a href="https://stickynotes-pk-mac.vercel.app/" target="_blank">
       <img src="assets/stickynotes.png" width="100%" alt="Sticky-Notes Preview" style="border-radius: 8px; margin: 10px 0;" />
@@ -85,12 +87,29 @@
       <img src="assets/banking_copilot_preview%201.png" width="100%" alt="Banking AI Copilot Preview" style="border-radius: 8px; margin: 10px 0;" />
     </a>
 
+*   **Jarvis AI Assistant**
+    *   *Description:* A real-time voice-activated AI assistant featuring dynamic location/timezone-aware greeting generation, dual-engine Text-to-Speech (TTS) synthesis, and high-performance bidirectional WebSocket communication.
+        *   *Frontend:* Built with React.js (Vite), Vanilla CSS (Cyberpunk/Sci-Fi UI theme with active/inactive neon state cues), Web Audio API (AudioContext, AnalyserNode, GainNode for real-time frequency waveforms and chime synthesis), and the Web Speech API (webkitSpeechRecognition) for local background wake-word triggers.
+        *   *Backend:* FastAPI ASGI server utilizing bidirectional WebSockets for high-frequency duplex streaming of raw audio packets and system configs.
+        *   *AI Models (STT & LLM):* Powered by Groq API running whisper-large-v3-turbo for rapid Speech-to-Text and llama-3.1-8b-instant / llama-3.3-70b-versatile for agent reasoning, timezone-aware localized queries, and function-calling routing.
+        *   *Text-to-Speech (TTS):* Dual-engine pipeline: Cloud/Premium (ElevenLabs API for voice streaming) and Local/Free (kokoro-onnx==0.3.4 and ONNX Runtime for in-memory offline English voice synthesis), with browser-native speech synthesis as a fallback for multi-lingual accents (Hindi & Telugu).
+        *   *Safety & Infrastructure:* Double-layered regex guardrail filter running on the FastAPI server to block explicit or unsafe URLs and queries before LLM invocation. Deployed as a monolithic container on Hugging Face Spaces via Docker.
+    *   *Live Demo:* [karthikp-mac-jarvis-ai-assistant.hf.space](https://karthikp-mac-jarvis-ai-assistant.hf.space/)
+    *   *Tech Stack:* ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socket.io&logoColor=white) ![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square) ![ONNX Runtime](https://img.shields.io/badge/ONNX_Runtime-005C99?style=flat-square&logo=onnx&logoColor=white) ![ElevenLabs](https://img.shields.io/badge/ElevenLabs-black?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97_Hugging_Face-yellow?style=flat-square)
+    
+
+    <!-- ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) -->
+      
+    <a href="https://karthikp-mac-jarvis-ai-assistant.hf.space/" target="_blank">
+      <img src="assets/jarvis_ai_assistant.png" width="100%" alt="Jarvis AI Assistant Preview" style="border-radius: 8px; margin: 10px 0;" />
+    </a>
+
 ---
 
 ### 💼 Live Institutional Web Applications (Private)
 
 *   **Adarsh Computers Portal**
-    *   *Description:* A comprehensive educational portal built for an institution to manage courses, students, and announcements.
+    *   *Description:* A comprehensive educational portal built for an institution to manage courses, students, announcements and online quizzes.
     *   *Live Website:* [adarsh-computers.vercel.app](https://adarsh-computers.vercel.app/)
     *   *Frontend Tech:* ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) 
     ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
@@ -132,7 +151,7 @@
     </table>
 
 *   **Python-Pdf Utility**
-    *   *Description:* Utility for generating PDFs from directories, selecting files/folders, and extracting text or images.
+    *   *Description:* Utility for generating PDFs from directories, selecting files/folders, and extracting text or images by selecting custom ranges.
     *   *Tech Stack:* ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) `PyPDF` `ReportLab` ![Tkinter](https://img.shields.io/badge/Tkinter-GUI-blue?style=flat-square)
     
     <a href="#">
@@ -203,15 +222,16 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-  <a href="https://twitter.com/KarthikP_Mac" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/twitter.svg" alt="KarthikP_Mac" height="30" width="40" /></a>
-  <a href="https://linkedin.com/in/karthik-potti" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/linked-in-alt.svg" alt="karthik-potti" height="30" width="40" /></a>
-  <a href="https://fb.com/karthik-potti" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/facebook.svg" alt="karthik-potti" height="30" width="40" /></a>
-  <a href="https://www.hackerrank.com/karthik-potti" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/hackerrank.svg" alt="karthik-potti" height="30" width="40" /></a>
-  <a href="https://www.leetcode.com/KarthikP-Mac" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/leet-code.svg" alt="KarthikP-Mac" height="30" width="40" /></a>
-  <a href="https://www.hackerearth.com/@karthikpotti842" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/hackerearth.svg" alt="@karthikpotti842" height="30" width="40" /></a>
-  <a href="https://discordapp.com/users/KarthikP-Mac" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/discord.svg" alt="Discord" height="30" width="40" /></a>
-  <a href="https://stackoverflow.com/users/YOUR_STACKOVERFLOW_ID" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/stack-overflow.svg" alt="StackOverflow" height="30" width="40" /></a>
-  <a href="https://instagram.com/karthik_potti" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/instagram.svg" alt="karthik_potti" height="30" width="40" /></a>
+  <!-- <a href="https://twitter.com/KarthikP_Mac" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/twitter.svg" alt="KarthikP_Mac" height="30" width="40" /></a> -->
+  <a href="https://twitter.com/KarthikP_Mac" target="blank"><img align="center" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/medium/colored/twitter-x.svg" alt="KarthikP_Mac" height="30" width="40" /></a>
+  <a href="http://www.linkedin.com/in/karthik-potti842" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/linked-in-alt.svg" alt="karthik-potti" height="30" width="40" /></a>
+  <a href="https://www.hackerrank.com/karthikpotti842" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/hackerrank.svg" alt="karthik-potti" height="30" width="40" /></a>
+  <a href="https://discordapp.com/users/karthikp_mac" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/discord.svg" alt="Discord" height="30" width="40" /></a>
+  <a href="https://fb.com/100009020761119" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/facebook.svg" alt="karthik-potti" height="30" width="40" /></a>
+  <a href="https://instagram.com/pottikarthik" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/instagram.svg" alt="karthik_potti" height="30" width="40" /></a>
+  <!-- <a href="https://www.leetcode.com/KarthikP-Mac" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/leet-code.svg" alt="KarthikP-Mac" height="30" width="40" /></a> -->
+  <!-- <a href="https://www.hackerearth.com/@karthikpotti842" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/hackerearth.svg" alt="@karthikpotti842" height="30" width="40" /></a> -->
+  <!-- <a href="https://stackoverflow.com/users/YOUR_STACKOVERFLOW_ID" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/stack-overflow.svg" alt="StackOverflow" height="30" width="40" /></a> -->
 </p>
 
 <h3 align="left">🛠️ Skills & Technologies:</h3>
@@ -236,7 +256,7 @@
 [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
 [![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)](https://www.postman.com/)
-[![SQL Render](https://img.shields.io/badge/SQL_Render-333333?style=for-the-badge)](https://github.com/OHDSI/SqlRender)
+<!-- [![SQL Render](https://img.shields.io/badge/SQL_Render-333333?style=for-the-badge)](https://github.com/OHDSI/SqlRender) -->
 
 #### 🤖 AI, LLM & Advanced RAG Systems
 [![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge)](https://www.langchain.com/)
