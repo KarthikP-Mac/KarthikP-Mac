@@ -9,7 +9,7 @@
 </p>
 
 - 💬 Ask me about **React, Angular, Typescript, Javascript, Java, Spring Boot, Node.js, Flask, Python and AI Agents.**
-- 📫 How to reach me **<a href="mailto:karthikpotti842@gmail.com" target="_blank">karthikpotti842@gmail.com</a>**
+- 📫 How to reach me **<a href="https://mail.google.com/mail/?view=cm&to=karthikpotti842@gmail.com&su=GitHub%20Profile%20Inquiry&body=Hi%20Karthik%2C%0A%0AI+came+across+your+GitHub+profile+and+would+love+to+connect+regarding+opportunities%2C+collaborations%2C+or+interesting+projects.%0A%0ALooking+forward+to+hearing+from+you." target="_blank">karthikpotti842@gmail.com</a>**
 - 👨‍💻 Know about me **<a href="https://github.com/KarthikP-Mac" target="_blank">karthikp-mac.github.io</a>**
 - 🚀 Google Developer Profile **<a href="https://g.dev/karthikPMac" target="_blank">g.dev/karthikPMac</a>**
 - 🐧 Automation & Scripting **Linux automation using Java & WinSCP**
