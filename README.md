@@ -11,13 +11,13 @@
 </head>
 <p align="center">
   <a href="https://github.com/KarthikP-Mac/KarthikP-Mac">
-    <img src="https://github.com/KarthikP-Mac/KarthikP-Mac/?username=KarthikP-Mac&theme=dark_lover" alt="KarthikP-Mac" />
+    <img src="https://img.shields.io/badge/GitHub-KarthikP--Mac-181717?style=for-the-badge&logo=github&logoColor=white" alt="KarthikP-Mac" />
   </a>
 </p>
 
 - 💬 Ask me about **React, Angular, Typescript, Javascript, Java, Spring Boot, Node.js, Flask, Python and AI Agents.**
 - 📫 How to reach me **<a href="https://mail.google.com/mail/?view=cm&to=karthikpotti842@gmail.com&su=GitHub%20Profile%20Inquiry&body=Hi%20Karthik%2C%0A%0AI+came+across+your+GitHub+profile+and+would+love+to+connect+regarding+opportunities%2C+collaborations%2C+or+interesting+projects.%0A%0ALooking+forward+to+hearing+from+you." target="_blank">karthikpotti842@gmail.com</a>**
-- 👨‍💻 Know about me **<a href="https://github.com/KarthikP-Mac" target="_blank">karthikp-mac.github.io</a>**
+- 👨‍💻 Know about me **<a href="https://karthikp-mac-portfolio.vercel.app/" target="_blank">🌐 karthikp-mac-portfolio</a>**
 - 🚀 Google Developer Profile **<a href="https://g.dev/karthikPMac" target="_blank">g.dev/karthikPMac</a>**
 - 🐧 Automation & Scripting **Linux automation using Java & WinSCP**
 - 📄 Resume (Live Preview) **<a href="https://htmlpreview.github.io/?https://github.com/KarthikP-Mac/KarthikP-Mac/blob/main/Karthik_Potti_Resume.html" target="_blank">Karthik's Resume</a>**
@@ -29,6 +29,20 @@
 
 
 <div align="center">
+<a href="https://karthikp-mac-portfolio.vercel.app/" target="_blank">
+  <img src="https://img.shields.io/badge/My_Portfolio-4285F4?style=for-the-badge&logo=homepage&logoColor=white" alt="Portfolio" />
+</a>
+
+<!-- <a href="https://karthikp-mac-portfolio.vercel.app/" target="_blank">
+  <img src="https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=aboutdotme&logoColor=white" alt="Portfolio" />
+</a>
+<a href="https://karthikp-mac-portfolio.vercel.app/" target="_blank">
+  <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
+</a>
+<a href="https://karthikp-mac-portfolio.vercel.app/" target="_blank">
+  <img src="https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+</a> -->
+
   <a href="https://g.dev/karthikPMac" target="_blank"><img src="https://img.shields.io/badge/Google_Developer_Profile-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Developer Profile" /></a>
   <a href="http://www.linkedin.com/in/karthik-potti842" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://github.com/KarthikP-Mac" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
@@ -226,12 +240,14 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
   <!-- <a href="https://twitter.com/KarthikP_Mac" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/twitter.svg" alt="KarthikP_Mac" height="30" width="40" /></a> -->
-  <a href="https://twitter.com/KarthikP_Mac" target="blank"><img align="center" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/medium/colored/twitter-x.svg" alt="KarthikP_Mac" height="30" width="40" /></a>
-  <a href="http://www.linkedin.com/in/karthik-potti842" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/linked-in-alt.svg" alt="karthik-potti" height="30" width="40" /></a>
-  <a href="https://www.hackerrank.com/karthikpotti842" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/hackerrank.svg" alt="karthik-potti" height="30" width="40" /></a>
-  <a href="https://discordapp.com/users/karthikp_mac" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/discord.svg" alt="Discord" height="30" width="40" /></a>
-  <a href="https://fb.com/100009020761119" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/facebook.svg" alt="karthik-potti" height="30" width="40" /></a>
-  <a href="https://instagram.com/pottikarthik" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/instagram.svg" alt="karthik_potti" height="30" width="40" /></a>
+  <a href="https://karthikp-mac-portfolio.vercel.app/" target="_blank"><img align="center" src="https://img.icons8.com/fluency/48/user-male-circle.png" alt="Portfolio" height="30" width="30" style="vertical-align:middle; margin-right: 8px;" /></a>
+  <a href="https://twitter.com/KarthikP_Mac" target="blank"><img align="center" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/medium/colored/twitter-x.svg" alt="KarthikP_Mac" height="30" width="40" style="max-width: 100%; height: auto; max-height: 30px; aspect-ratio: 40 / 30; background-color: #dee5efc9; border-radius: 6px; margin-right: 8px;" class="js-gh-image-fallback" /></a>
+  <a href="http://www.linkedin.com/in/karthik-potti842" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/linked-in-alt.svg" alt="karthik-potti" height="30" width="40" style="margin-right: 8px;" /></a>
+  <a href="https://www.hackerrank.com/karthikpotti842" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/hackerrank.svg" alt="karthik-potti" height="30" width="40" style="margin-right: 8px;" /></a>
+  <a href="https://discordapp.com/users/karthikp_mac" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/discord.svg" alt="Discord" height="30" width="40" style="margin-right: 8px;" /></a>
+  <a href="https://fb.com/100009020761119" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/facebook.svg" alt="karthik-potti" height="30" width="40" style="margin-right: 8px;" /></a>
+  <a href="https://instagram.com/pottikarthik" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/instagram.svg" alt="karthik_potti" height="30" width="40" style="margin-right: 8px;" /></a>
+  <a href="https://mail.google.com/mail/?view=cm&to=karthikpotti842@gmail.com&su=GitHub%20Profile%20Inquiry&body=Hi%20Karthik%2C%0A%0AI+came+across+your+GitHub%20profile+and+would+love%20to%20connect%20regarding%20opportunities%2C%20collaborations%2C%20or%20interesting%20projects.%0A%0ALooking%20forward%20to%20hearing%20from%20you." target="blank"><img align="center" src="https://img.icons8.com/color/48/gmail-new.png" alt="Gmail" height="30" width="30" style="vertical-align:middle; margin-right: 8px;" /></a>
   <!-- <a href="https://www.leetcode.com/KarthikP-Mac" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/leet-code.svg" alt="KarthikP-Mac" height="30" width="40" /></a> -->
   <!-- <a href="https://www.hackerearth.com/@karthikpotti842" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/hackerearth.svg" alt="@karthikpotti842" height="30" width="40" /></a> -->
   <!-- <a href="https://stackoverflow.com/users/YOUR_STACKOVERFLOW_ID" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/stack-overflow.svg" alt="StackOverflow" height="30" width="40" /></a> -->
