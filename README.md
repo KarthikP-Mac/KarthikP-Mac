@@ -2,6 +2,13 @@
 
 <h1 align="center">Hi 👋, I'm Karthik Potti</h1>
 
+<head>
+  <meta name="google-site-verification" content="vKsLioTkuhVswY-CQ8q3Kxjdl7qxVrhWCz6NOSYZGq8" />
+  <meta name="description"
+    content="Official portfolio and resume of Karthik Potti (KarthikP-Mac), a Software and AI Engineer specializing in data-driven applications, automation and AI Agents, full-stack development." />
+  <meta name="keywords"
+    content="Karthik Potti, KarthikP-Mac, KarthikP, KarthikPotti842, karthikp-mac, karthikpotti, Karthik Potti Resume, pk-mac, Software Engineer, AI Engineer, Automation Engineer" />
+</head>
 <p align="center">
   <a href="https://github.com/KarthikP-Mac/KarthikP-Mac">
     <img src="https://github.com/KarthikP-Mac/KarthikP-Mac/?username=KarthikP-Mac&theme=dark_lover" alt="KarthikP-Mac" />
@@ -13,10 +20,6 @@
 - 👨‍💻 Know about me **<a href="https://github.com/KarthikP-Mac" target="_blank">karthikp-mac.github.io</a>**
 - 🚀 Google Developer Profile **<a href="https://g.dev/karthikPMac" target="_blank">g.dev/karthikPMac</a>**
 - 🐧 Automation & Scripting **Linux automation using Java & WinSCP**
-<!-- - 📄 Resume (Live Preview) **[Karthik's Resume](https://karthikp-mac.github.io/KarthikP-Mac/Karthik_Potti_Resume.html)** -->
-<!-- - 📄 Know about my experiences **[Karthik's Resume](https://github.com/KarthikP-Mac/KarthikP-Mac/blob/main/Karthik_Potti_Resume.html)** -->
-<!-- - 📄 Resume (Live Preview) **[Karthik's Resume](https://htmlpreview.github.io/?https://github.com/KarthikP-Mac/KarthikP-Mac/blob/main/Karthik_Potti_Resume.html)**
-- 📄 Resume (Markdown) **[Karthik's Resume](Karthik_Potti_Resume.md)** -->
 - 📄 Resume (Live Preview) **<a href="https://htmlpreview.github.io/?https://github.com/KarthikP-Mac/KarthikP-Mac/blob/main/Karthik_Potti_Resume.html" target="_blank">Karthik's Resume</a>**
 - 📄 Resume (Markdown) **<a href="Karthik_Potti_Resume.md" target="_blank">Karthik's Resume</a>**
 
