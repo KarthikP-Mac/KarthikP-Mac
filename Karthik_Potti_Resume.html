@@ -11,13 +11,24 @@
     content="Karthik Potti, KarthikP-Mac, KarthikP, KarthikPotti842, karthikp-mac, karthikpotti, Karthik Potti Resume, pk-mac, Software Engineer, AI Engineer, Automation Engineer" />
 
   <title>Karthik Potti - Resume</title>
-  <link rel="icon" type="image/png" id="favicon" href="favicon.png">
+  <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/KarthikP-Mac/KarthikP-Mac/main/favicon.png">
   <script>
-    if (window.location.hostname.includes('htmlpreview')) {
-      document.getElementById('favicon').setAttribute('href', 'https://raw.githubusercontent.com/KarthikP-Mac/KarthikP-Mac/main/favicon.png');
-    }
+    // Force favicon reload — browsers cache failed fetches on proxied pages (htmlpreview.github.io) || https://htmlpreview.github.io/htmlpreview.js
+    // Removing and re-inserting a new <link> element after DOM ready forces a fresh load.
+    document.addEventListener('DOMContentLoaded', function () {
+      var old = document.querySelector('link[rel="icon"]');
+      if (old) old.remove();
+      var link = document.createElement('link');
+      link.rel = 'icon';
+      link.type = 'image/png';
+      link.href = 'https://raw.githubusercontent.com/KarthikP-Mac/KarthikP-Mac/main/favicon.png?' + Date.now();
+      document.head.appendChild(link);
+    });
+
+    // if (window.location.hostname.includes('htmlpreview')) {
+    //   document.getElementById('favicon').setAttribute('href', 'https://raw.githubusercontent.com/KarthikP-Mac/KarthikP-Mac/main/favicon.png');
+    // }
   </script>
-  <!-- https://htmlpreview.github.io/htmlpreview.js -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
