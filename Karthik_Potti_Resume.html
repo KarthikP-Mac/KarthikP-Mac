@@ -12,22 +12,32 @@
 
   <title>Karthik Potti - Resume</title>
   <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/KarthikP-Mac/KarthikP-Mac/main/favicon.png">
+  <link rel="shortcut icon" type="image/png"
+    href="https://raw.githubusercontent.com/KarthikP-Mac/KarthikP-Mac/main/favicon.png">
   <script>
-    // Force favicon reload — browsers cache failed fetches on proxied pages (htmlpreview.github.io) || https://htmlpreview.github.io/htmlpreview.js
-    // Removing and re-inserting a new <link> element after DOM ready forces a fresh load.
-    document.addEventListener('DOMContentLoaded', function () {
-      var old = document.querySelector('link[rel="icon"]');
-      if (old) old.remove();
-      var link = document.createElement('link');
-      link.rel = 'icon';
-      link.type = 'image/png';
-      link.href = 'https://raw.githubusercontent.com/KarthikP-Mac/KarthikP-Mac/main/favicon.png?' + Date.now();
-      document.head.appendChild(link);
-    });
-
-    // if (window.location.hostname.includes('htmlpreview')) {
-    //   document.getElementById('favicon').setAttribute('href', 'https://raw.githubusercontent.com/KarthikP-Mac/KarthikP-Mac/main/favicon.png');
-    // }
+    // htmlpreview.github.io uses document.write() to inject page HTML, which causes the browser
+    // to "miss" the favicon from the new document. Force-setting it multiple times at staggered
+    // delays reliably beats the race condition. (Same trick as editing the element in DevTools.)
+    (function () {
+      var faviconUrl = 'https://raw.githubusercontent.com/KarthikP-Mac/KarthikP-Mac/main/favicon.png';
+      function forceFavicon() {
+        var old = document.querySelectorAll('link[rel="icon"], link[rel="shortcut icon"]');
+        old.forEach(function (el) { el.parentNode.removeChild(el); });
+        var link = document.createElement('link');
+        link.rel = 'icon';
+        link.type = 'image/png';
+        link.href = faviconUrl + '?v=' + Date.now();
+        document.head.appendChild(link);
+      }
+      // Fire at multiple points to beat htmlpreview.js timing
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', forceFavicon);
+      }
+      forceFavicon();
+      setTimeout(forceFavicon, 100);
+      setTimeout(forceFavicon, 500);
+      setTimeout(forceFavicon, 1500);
+    })();
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
