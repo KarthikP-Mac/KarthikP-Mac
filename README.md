@@ -2,15 +2,15 @@
 
 <h1 align="center">Hi 👋, I'm Karthik Potti</h1>
 
-
-<head>
+<!-- <head>
   <meta name="google-site-verification" content="vKsLioTkuhVswY-CQ8q3Kxjdl7qxVrhWCz6NOSYZGq8" />
   <meta name="description"
     content="Official portfolio and resume of Karthik Potti (KarthikP-Mac), a Software and AI Engineer specializing in data-driven applications, automation and AI Agents, full-stack development." />
   <meta name="keywords"
     content="Karthik Potti, KarthikP-Mac, KarthikP, KarthikPotti842, karthikp-mac, karthikpotti, Karthik Potti Resume, pk-mac, Software Engineer, AI Engineer, Automation Engineer" />
   <link rel="icon" type="image/x-icon" href="favicon.ico" />
-</head>
+</head> -->
+
 <p align="center">
   <a href="https://github.com/KarthikP-Mac/KarthikP-Mac">
     <img src="https://img.shields.io/badge/GitHub-KarthikP--Mac-181717?style=for-the-badge&logo=github&logoColor=white" alt="KarthikP-Mac" />
