@@ -15,7 +15,7 @@
   <link rel="shortcut icon" type="image/png"
     href="https://raw.githubusercontent.com/KarthikP-Mac/KarthikP-Mac/main/favicon.png">
   <script>
-    // htmlpreview.github.io uses document.write() to inject page HTML, which causes the browser
+    // htmlpreview.github.io uses document.write() to inject page HTML (https://htmlpreview.github.io/htmlpreview.js), which causes the browser
     // to "miss" the favicon from the new document. Force-setting it multiple times at staggered
     // delays reliably beats the race condition. (Same trick as editing the element in DevTools.)
     (function () {
@@ -29,7 +29,6 @@
         link.href = faviconUrl + '?v=' + Date.now();
         document.head.appendChild(link);
       }
-      // Fire at multiple points to beat htmlpreview.js timing
       if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', forceFavicon);
       }
@@ -38,6 +37,32 @@
       setTimeout(forceFavicon, 500);
       setTimeout(forceFavicon, 1500);
     })();
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+      if (window.innerWidth < 992) {
+        var userConfirm = confirm(
+          "CHANGE SUMMARY:\n" +
+          "• Forces full desktop width layout (1200px)\n" +
+          "• Zooms out to fit the resume layout on your screen\n" +
+          "• Enables horizontal scrolling if needed\n\n" +
+          "Click 'OK' to apply these desktop layout changes:"
+        );
+        if (userConfirm) {
+          var viewport = document.getElementById('my-viewport');
+          if (viewport) {
+            viewport.setAttribute('content', 'width=1200, initial-scale=0.3, shrink-to-fit=no');
+          }
+          document.body.classList.add('force-desktop');
+          var wrapper = document.getElementById('resume-wrapper');
+          if (wrapper) {
+            wrapper.classList.add('force-desktop');
+          }
+        }
+      }
+    });
+    // var userInput = prompt
+    // if (userInput && userInput.trim().toLowerCase() === 'ok')
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -867,33 +892,6 @@
       </main>
     </div>
   </div>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      if (window.innerWidth < 992) {
-        var userConfirm = confirm(
-          "CHANGE SUMMARY:\n" +
-          "• Forces full desktop width layout (1200px)\n" +
-          "• Zooms out to fit the resume layout on your screen\n" +
-          "• Enables horizontal scrolling if needed\n\n" +
-          "Click 'OK' to apply these desktop layout changes:"
-        );
-        if (userConfirm) {
-          var viewport = document.getElementById('my-viewport');
-          if (viewport) {
-            viewport.setAttribute('content', 'width=1200, initial-scale=0.3, shrink-to-fit=no');
-          }
-          document.body.classList.add('force-desktop');
-          var wrapper = document.getElementById('resume-wrapper');
-          if (wrapper) {
-            wrapper.classList.add('force-desktop');
-          }
-        }
-      }
-    });
-    // var userInput = prompt
-    // if (userInput && userInput.trim().toLowerCase() === 'ok') 
-  </script>
 </body>
 
 </html>
