@@ -16,7 +16,7 @@ Dedicated Full Stack Developer and AI/Automation Engineer with 4 years of experi
 ## 🛠️ Technical Skills
 
 *   **Programming Languages:** Java, Python, JavaScript, TypeScript, C, HTML5, CSS3
-*   **Frameworks & Libraries:** Spring Boot, React, Angular, Flask, Bootstrap, Materialize CSS, jQuery
+*   **Frameworks & Libraries:** Spring Boot, React, Angular, Flask, FastAPI, Tkinter, Bootstrap, Materialize CSS, jQuery
 *   **AI & Automation:** LangChain, LangGraph, AutoGen AI, RAG / CRAG, Azure OCR, Microsoft Logic Apps, Azure RAG Index
 *   **Databases:** Oracle SQL, MySQL, MongoDB
 *   **Tools & Platforms:** Git, GitHub (ci/cd, version control), Linux (WinSCP, automation), Maven, Postman, Azure DevOps (deployment, ci/cd), Vercel, Render

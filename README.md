@@ -17,7 +17,7 @@
   </a>
 </p>
 
-- 💬 Ask me about **React, Angular, Typescript, Javascript, Java, Spring Boot, Node.js, Flask, Python and AI Agents.**
+- 💬 Ask me about **React, Angular, Typescript, Javascript, Java, Spring Boot, Node.js, Flask, FastAPI, Tkinter, Python and AI Agents.**
 - 📫 How to reach me **<a href="https://mail.google.com/mail/?view=cm&to=karthikpotti842@gmail.com&su=GitHub%20Profile%20Inquiry&body=Hi%20Karthik%2C%0A%0AI+came+across+your+GitHub+profile+and+would+love+to+connect+regarding+opportunities%2C+collaborations%2C+or+interesting+projects.%0A%0ALooking+forward+to+hearing+from+you." target="_blank">karthikpotti842@gmail.com</a>**
 - 👨‍💻 Know about me **<a href="https://karthikp-mac-portfolio.vercel.app/" target="_blank">🌐 karthikp-mac-portfolio</a>**
 - 🚀 Google Developer Profile **<a href="https://g.dev/karthikPMac" target="_blank">g.dev/karthikPMac</a>**
@@ -260,6 +260,7 @@
 #### 💻 Programming & Frontend Development
 [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Tkinter](https://img.shields.io/badge/Tkinter-GUI-blue?style=for-the-badge)](https://docs.python.org/3/library/tkinter.html)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C_(programming_language))
@@ -272,6 +273,7 @@
 #### ⚙️ Backend, Database & Deployment
 [![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)](https://spring.io/projects/spring-boot)
 [![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)](https://www.oracle.com/)
 [![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://en.wikipedia.org/wiki/SQL)
 [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
