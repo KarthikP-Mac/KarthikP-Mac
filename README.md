@@ -24,12 +24,6 @@
 - 🐧 Automation & Scripting **Linux automation using Java & WinSCP**
 - 📄 Resume (Live Preview) **<a href="https://htmlpreview.github.io/?https://github.com/KarthikP-Mac/KarthikP-Mac/blob/main/Karthik_Potti_Resume.html" target="_blank">Karthik's Resume</a>**
 - 📄 Resume (Markdown) **<a href="Karthik_Potti_Resume.md" target="_blank">Karthik's Resume</a>**
-<!-- - 📄 Resume (Live Preview) &nbsp;&nbsp; <a href="https://htmlpreview.github.io/?https://github.com/KarthikP-Mac/KarthikP-Mac/blob/main/Karthik_Potti_Resume.html" target="_blank"><img src="https://img.shields.io/badge/View_Interactive_Resume-FF5722?style=flat-square&logo=googlechrome&logoColor=white" alt="Interactive Resume" /></a>
-- 📄 Resume (Markdown) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="Karthik_Potti_Resume.md" target="_blank"><img src="https://img.shields.io/badge/View_Markdown_Resume-0078D4?style=flat-square&logo=markdown&logoColor=white" alt="Markdown Resume" /></a> -->
-
-
-
-
 
 
 <div align="center">
