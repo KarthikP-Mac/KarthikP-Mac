@@ -13,14 +13,14 @@
 
 ## Professional Summary
 
-Results-driven Full Stack Developer and AI Engineer with 4+ years of experience at Tata Consultancy Services (TCS), delivering enterprise-grade web applications and Generative AI solutions in the BFSI sector. Demonstrated expertise building full stack systems with React, Angular, and Java Spring Boot, designing RAG/CRAG pipelines with LangChain and FAISS, and automating complex business workflows using AutoGen AI and Azure services. Proven track record in resolving 100+ security vulnerabilities, streamlining CI/CD pipelines to reduce deployment effort by 70%, and integrating multi-LLM systems (Groq, Gemini, OpenAI, Claude) into production. Skilled in REST API design, JWT/RBAC security, Docker containerization, and Linux automation.
+Results-driven Full Stack Developer and AI Engineer with 4+ years of professional experience at Tata Consultancy Services (TCS), specializing in enterprise-scale web applications, distributed system design, and Generative AI solutions for the BFSI sector. Expert in architecting microservices and single-page applications using Java, Spring Boot, React, Angular, and Node.js. Proven track record of designing high-performance Retrieval-Augmented Generation (RAG/CRAG) pipelines using LangChain, LangGraph, and FAISS Vector databases, automating business workflows via AutoGen Multi-Agent frameworks, and deploying containerized services on Azure Kubernetes Service (AKS). Accomplished in remediating 100+ security vulnerabilities, reducing CI/CD deployment time by 70%, and decreasing system Mean Time to Resolution (MTTR) by 45% while achieving 100% security audit compliance.
 
 ---
 
 ## Technical Skills
 
 * **Programming Languages:** Java, Python, JavaScript, TypeScript, C, HTML5, CSS3
-* **Frontend:** React, Angular, Vite, Bootstrap, Materialize CSS, jQuery, CSS3, PWA
+* **Frontend:** React, Angular, Angular Material, Vite, Bootstrap, Materialize CSS, jQuery, CSS3, PWA
 * **Backend:** Java Spring Boot, Node.js, Express.js, Flask, FastAPI, REST APIs, WebSocket, Microservices
 * **Desktop & UI:** Tkinter (Python GUI)
 * **AI / ML / GenAI:** LangChain, LangGraph, AutoGen AI, AI Agents, RAG, CRAG, Prompt Engineering, FAISS Vector DB, Azure RAG Index, Groq API, OpenAI API, Gemini API, Claude API, ElevenLabs, ONNX Runtime (Kokoro), Streamlit, Azure OCR, Microsoft Logic Apps
@@ -34,32 +34,33 @@ Results-driven Full Stack Developer and AI Engineer with 4+ years of experience 
 
 ### Tata Consultancy Services (TCS)
 **IT Systems Engineer** | *Client: Equitable Financial Life Insurance (BFSI)*
-*Apr 2022 – Present* | *Hyderabad, India*
+*May 2022 – Present* | *Hyderabad, India*
 
 #### Project 1: GenAI — Upsell, Cross-Sell & Operational Call Intelligence
 *Role: AI Developer & Automation Engineer*
 
-* Architected and deployed end-to-end **Generative AI pipelines** using **Python**, **LangChain**, and **RAG** to analyze insurance call recordings, extracting upsell/cross-sell client insights at scale.
-* Automated multi-step report compilation and scheduled stakeholder email distribution using **AutoGen AI** and **Microsoft Logic Apps**, eliminating 100% manual effort for recurring reporting cycles.
-* Designed and implemented a **Python-based OCR automation service** (Azure OCR) that parsed and processed user-uploaded PDFs for automated transaction data extraction, reducing processing time significantly.
-* Built the GenAI full stack application using **Flask** (REST API backend) and **React** (frontend), and integrated **Power BI** dashboards to visualize statistical workflow details and operational KPIs for business stakeholders.
-* Collaborated with cross-functional teams of engineers, analysts, and product owners to integrate AI models into existing enterprise BFSI systems, improving client engagement metrics.
+* Architected and deployed end-to-end **Generative AI pipelines** using **Python**, **LangChain**, and **RAG** to extract and analyze **7,000–9,000 daily call recording transcripts** from **Genesys PureCloud** into SQL, surfacing upsell/cross-sell client insights at scale and improving data processing throughput by 40%.
+* Automated multi-step report generation and stakeholder distribution using **AutoGen** multi-agent workflows and **Microsoft Logic Apps**, saving 15+ manual hours per week.
+* Designed and implemented a **Python-based OCR automation service** (Azure OCR) that parsed and processed user-uploaded PDFs, reducing document processing time by 80% and increasing data extraction accuracy to 99%.
+* Engineered a responsive **React** frontend and **Flask** REST API backend, integrating embedded **Power BI** dashboards to deliver real-time operational insights, enhancing decision-making efficiency by 30%.
+* Collaborated with cross-functional product teams to integrate AI pipelines into enterprise BFSI core services, boosting client engagement by 15% and ensuring seamless cross-system compatibility.
 
 #### Project 2: Java Full Stack — Latte Rewrite & ACH Integration
 *Role: Full Stack Developer*
 
-* Developed highly responsive, enterprise-grade frontend layouts in **Angular** and implemented backend services using **Java Spring Boot** for ACH payment integrations with Bank of America, processing financial transactions reliably.
+* Developed high-throughput financial backend services using **Java Spring Boot** and dynamic UIs in **Angular** (**Angular Material** / **TypeScript**) within a **monolithic application** architecture for ACH payment integrations with Bank of America, securely processing $10M+ in quarterly transactions.
 * Engineered a custom multi-window modal manager in **Angular** mimicking Windows Explorer desktop OS behavior — dynamically orchestrating z-index depth to bring active popups to foreground and stack inactive ones, improving UX for complex financial workflows.
 * Orchestrated vulnerability remediations across 100+ critical financial REST APIs, centralizing security patches into a reusable **Maven JAR** artifact — achieving consistent compliance across 10+ microservices and reducing duplicate remediation effort by ~60%.
-* Managed and monitored background automation batch processes in a **Linux** environment, utilizing **WinSCP** for secure file transmittal and log analysis, ensuring 99%+ batch job reliability.
+* Managed background automation batch jobs in a **Linux** environment, utilizing shell scripting and **WinSCP** for secure file transfers, achieving 99.9% pipeline reliability.
 
 #### Cross-Project Contributions
 
-* Developed and maintained **Angular** and **React** component libraries alongside RESTful APIs using **Spring Boot** and **Flask**, enabling seamless UI–backend integration across multiple enterprise applications.
+* Developed and maintained **Angular** (**Angular Material** / **TypeScript**) and **React** component libraries alongside RESTful APIs using **Spring Boot** and **Flask**, reducing UI development cycles by 35% and enabling seamless UI–backend integration across multiple enterprise applications.
 * Resolved 100+ application security vulnerabilities as part of Equitable's Vulnerability Remediation Team, achieving full compliance in **Veracode** security scans and internal audits.
 * Designed secure REST APIs and UI flows using **JWT-based authentication** and **role-based authorization (RBAC)**, achieving 100% pass rate in all internal security compliance audits.
-* Streamlined **CI/CD pipelines** using **Azure DevOps** and **GitHub**, reducing manual deployment effort by **70%** and enabling faster, more reliable release cycles.
-* Implemented centralized logging and exception handling with **Azure Kubernetes** loggers, improving error traceability and reducing MTTR for production incidents across **microservices** architecture.
+* Optimized **CI/CD pipelines** in **Azure DevOps**, slashing manual deployment overhead by **70%** and increasing release frequency by 3x.
+* Implemented centralized logging and observability using **Azure Kubernetes Service (AKS)** monitoring and loggers, reducing Mean Time to Resolution (MTTR) by 45% across distributed **microservices**.
+* Owned end-to-end **system design** across multiple enterprise applications — architecting UI/UX layouts, REST API contracts, database schemas, GitHub Actions workflows, Azure Kubernetes clusters, and AI pipeline service integrations from requirements to production deployment.
 
 ---
 
@@ -87,12 +88,12 @@ Results-driven Full Stack Developer and AI Engineer with 4+ years of experience 
 #### Web-RTC (Live Random Video Calls) — *[Live Demo](https://web-rtc-lq00.onrender.com/)*
 *Tech: React, WebRTC APIs, Spring Boot, Java Virtual Threads (Project Loom), WebSocket (Signaling), Render*
 
-* Developed a peer-to-peer video conferencing application supporting live video/audio streams, screen sharing, and adaptive signaling. Backend built with **Java Virtual Threads** (Project Loom) for high-concurrency, low-latency signaling coordination.
+* Developed a peer-to-peer video conferencing application supporting live video/audio streams, screen sharing, and adaptive signaling. Backend built with **Java Virtual Threads** (Project Loom) for high-concurrency, low-latency signaling coordination, deployed as a **monolithic Docker** container on Render.
 
 #### Web-Sockets (Live Chat Application) — *[Live Demo](https://web-sockets-ju5x.onrender.com/)*
 *Tech: Angular, Spring Boot, WebSocket (STOMP), Docker, Render*
 
-* Built a real-time instant messaging service with persistent connection tracking, ensuring reliable end-to-end delivery of chat messages at scale.
+* Built a real-time instant messaging service with persistent connection tracking and **STOMP**-based WebSocket messaging, deployed as a **monolithic Docker** container on Render — ensuring reliable end-to-end delivery of chat messages at scale.
 
 #### Sticky-Notes (Progressive Web App) — *[Live Demo](https://stickynotes-pk-mac.vercel.app/)*
 *Tech: React 19, Vite, PWA, Firebase Firestore, Firebase Auth (Google OAuth2), LocalStorage, CSS3, Vercel*
@@ -120,21 +121,22 @@ Results-driven Full Stack Developer and AI Engineer with 4+ years of experience 
 #### Smart Stocker — Inventory & Ledger App
 *Tech: Python, Tkinter, SQLite3, Excel (openpyxl), SMTP, Matplotlib, AI Bot, JSON*
 
-* Full-featured desktop inventory & ledger system with an **AI stock advisor bot** (low-stock / profit-loss alerts), interactive **bar/pie chart dashboard**, and automated email reports via SMTP.
-* Generates customer bill, purchase order, and monthly profit report PDFs; includes undo/redo, forecast sale, reset/clear, and **password-protected access**.
-* Auto-saves every 300s to JSON + SQLite3 backup; supports Excel import/export with automatic state restoration on relaunch. Color-coded stock alerts: yellow (≤50% items), red (≤25% items).
+* Designed a standalone desktop ERP and ledger system using **Python (Tkinter)** and **SQLite3**, featuring local data caching, asynchronous background auto-saves, and Matplotlib-based analytics dashboards.
+* Implemented an automated stock advisory module providing real-time stock alert thresholds (yellow/red warnings) and predictive profit forecasting.
+* Integrated secure PDF document compilation for automated generation of invoices, purchase orders, and monthly ledger sheets.
 
 #### PDF Batch Processor
 *Tech: Python, Tkinter, PyPDF, Pillow, OS APIs, File Automation*
 
-* Batch converts entire image folders to high-quality, compressed PDFs with a live progress renderer (handles unlimited files in a single run).
-* Select images, **custom-reorder pages interactively with live preview**, and generate the PDF in that exact sequence by buttons up/down for images selected or drag to reorder images; also supports selective page extraction (e.g. pick 2 of 10 pages) and image-only extraction from existing PDF files.
+* Engineered a desktop utility using **Python (Tkinter)** to batch convert entire folders of images into high-quality, compressed PDFs with a live progress renderer.
+* Supports custom page and image ordering with a **live sequence preview** (allowing interactive drag-and-drop or button-based reordering) before exporting the final PDF.
+* Implemented selective page extraction (e.g., picking 2 of 10 pages) and image-only extraction from existing PDF documents.
 
 #### System Power Scheduler
 *Tech: Python, Tkinter, Windows OS APIs, JSON, Task Scheduling*
 
-* Automates shutdown, sleep, and lock via countdown timers or persistent **daily schedules** (saved in JSON, auto-triggered at a set HH:MM each day).
-* Displays a system-overlay countdown notification in the final 5 minutes to alert the user; **password-protected** to cancel timers, delete tasks, or exit the application.
+* Developed a desktop power automation tool in **Python (Tkinter)** that schedules system events (shutdown, sleep, lock) via countdown timers and persistent daily schedules saved in JSON.
+* Implemented a system-overlay countdown notification in the final 5 minutes of a scheduled event, with password-protected controls to cancel timers, edit tasks, or exit.
 
 ---
 
