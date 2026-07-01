@@ -21,6 +21,7 @@
 - 📫 How to reach me **<a href="https://mail.google.com/mail/?view=cm&to=karthikpotti842@gmail.com&su=GitHub%20Profile%20Inquiry&body=Hi%20Karthik%2C%0A%0AI+came+across+your+GitHub+profile+and+would+love+to+connect+regarding+opportunities%2C+collaborations%2C+or+interesting+projects.%0A%0ALooking+forward+to+hearing+from+you." target="_blank">karthikpotti842@gmail.com</a>**
 - 👨‍💻 Know about me **<a href="https://karthikp-mac-portfolio.vercel.app/" target="_blank">🌐 karthikp-mac-portfolio</a>**
 - 🚀 Google Developer Profile **<a href="https://g.dev/karthikPMac" target="_blank">g.dev/karthikPMac</a>**
+- 🤗 AI Projects (Live) **<a href="https://huggingface.co/KarthikP-Mac/spaces" target="_blank">huggingface.co/KarthikP-Mac/spaces</a>**
 - 🐧 Automation & Scripting **Linux automation using Java & WinSCP**
 - 📄 Resume (Live Preview) **<a href="https://htmlpreview.github.io/?https://github.com/KarthikP-Mac/KarthikP-Mac/blob/main/Karthik_Potti_Resume.html" target="_blank">Karthik's Resume</a>**
 - 📄 Resume (Markdown) **<a href="Karthik_Potti_Resume.md" target="_blank">Karthik's Resume</a>**
@@ -35,6 +36,9 @@
 </a>
 <a href="Karthik_Potti_Resume.md" target="_blank">
   <img src="https://img.shields.io/badge/Markdown_Resume-0078D4?style=for-the-badge&logo=markdown&logoColor=white" alt="Markdown Resume" />
+</a>
+<a href="https://huggingface.co/KarthikP-Mac/spaces" target="_blank">
+  <img src="https://img.shields.io/badge/%F0%9F%A4%97_HF_Spaces-FFD21E?style=for-the-badge&logoColor=black" alt="Hugging Face Spaces" />
 </a>
 
 <!-- <a href="https://karthikp-mac-portfolio.vercel.app/" target="_blank">
@@ -99,20 +103,20 @@
 ### 🤖 Artificial Intelligence & RAG Agents (Public)
 
 *   **BFSI-Insurance-Ai-Agent (Banking AI Copilot)**
-    *   *Description:* An intelligent finance & banking AI assistant that answers domain-specific queries. Leverages a robust CRAG pipeline with a custom recursive character splitter and FAISS vector database.
+    *   *Description:* An intelligent finance & banking AI assistant that answers domain-specific queries. Leverages a robust **CRAG** pipeline with a custom recursive character splitter, **FAISS vector database**, and a **Multi-Model LLM Orchestration** architecture &mdash; configured with **Llama-4 Scout 17B** (meta-llama/llama-4-scout-17b-16e-instruct) as the active primary reasoning engine, with dynamic hot-swapping fallback routing across Llama-3.3-70b, Llama-3.1-8b, and Qwen-3 to manage token limits and optimize cost per query.
     *   *Live Demo:* [karthikp-mac-banking-ai-copilot.hf.space](https://karthikp-mac-banking-ai-copilot.hf.space/)
-    *   *Tech Stack:* ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![FAISS](https://img.shields.io/badge/FAISS-blue?style=flat-square) ![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97_Hugging_Face-yellow?style=flat-square) `CRag`
-    *   *LLM Models Supported:* Groq, Gemini, OpenAI, Claude.
+    *   *Tech Stack:* ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![FAISS](https://img.shields.io/badge/FAISS-blue?style=flat-square) ![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97_Hugging_Face-yellow?style=flat-square) `CRAG` `Multi-LLM`
+    *   *LLM Models Supported:* Groq (Active: Llama-4 Scout 17B | Fallbacks: Llama-3.3-70b · Llama-3.1-8b · Qwen-3), Gemini, OpenAI, Claude.
     
     <a href="https://karthikp-mac-banking-ai-copilot.hf.space/" target="_blank">
       <img src="assets/banking_copilot_preview%201.png" width="100%" alt="Banking AI Copilot Preview" style="border-radius: 8px; margin: 10px 0;" />
     </a>
 
 *   **Jarvis AI Assistant**
-    *   *Description:* A real-time voice-activated AI assistant featuring dynamic location/timezone-aware greeting generation, dual-engine Text-to-Speech (TTS) synthesis, and high-performance bidirectional WebSocket communication.
+    *   *Description:* A real-time, **Multimodal Voice-to-Voice AI Assistant** featuring dynamic location/timezone-aware greeting generation, dual-engine Text-to-Speech (TTS) synthesis, and high-performance bidirectional WebSocket communication.
         *   *Frontend:* Built with React.js (Vite), Vanilla CSS (Cyberpunk/Sci-Fi UI theme with active/inactive neon state cues), Web Audio API (AudioContext, AnalyserNode, GainNode for real-time frequency waveforms and chime synthesis), and the Web Speech API (webkitSpeechRecognition) for local background wake-word triggers.
         *   *Backend:* FastAPI ASGI server utilizing bidirectional WebSockets for high-frequency duplex streaming of raw audio packets and system configs.
-        *   *AI Models (STT & LLM):* Powered by Groq API running whisper-large-v3-turbo for rapid Speech-to-Text and llama-3.1-8b-instant / llama-3.3-70b-versatile for agent reasoning, timezone-aware localized queries, and function-calling routing.
+        *   *AI Models (STT & Multi-LLM):* Powered by Groq API — Whisper-large-v3-turbo for rapid Speech-to-Text and a **Multi-Model LLM Routing Layer** selecting between **Llama-4 Scout 17B** (active primary model · 500K TPD · best quality/throughput ratio), **Llama-3.3-70b-versatile** (high-quality reasoning · 100K TPD), and **Llama-3.1-8b-instant** (ultra-low latency · 500K TPD) for agent reasoning, timezone-aware localized queries, and function-calling routing.
         *   *Text-to-Speech (TTS):* Dual-engine pipeline: Cloud/Premium (ElevenLabs API for voice streaming) and Local/Free (kokoro-onnx==0.3.4 and ONNX Runtime for in-memory offline English voice synthesis), with browser-native speech synthesis as a fallback for multi-lingual accents (Hindi & Telugu).
         *   *Safety & Infrastructure:* Double-layered regex guardrail filter running on the FastAPI server to block explicit or unsafe URLs and queries before LLM invocation. Deployed as a monolithic container on Hugging Face Spaces via Docker.
     *   *Live Demo:* [karthikp-mac-jarvis-ai-assistant.hf.space](https://karthikp-mac-jarvis-ai-assistant.hf.space/)
@@ -273,6 +277,7 @@
 [![JQuery](https://img.shields.io/badge/JQuery-146EB2?style=for-the-badge&logo=jquery&logoColor=white)](https://jquery.com/)
 [![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)](https://angular.dev/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
+[![Font Awesome](https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white)](https://fontawesome.com/)
 
 #### ⚙️ Backend, Database & Deployment
 [![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)](https://spring.io/projects/spring-boot)

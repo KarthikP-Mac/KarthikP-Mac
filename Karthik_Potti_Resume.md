@@ -5,6 +5,7 @@
 * **Email:** [karthikpotti842@gmail.com](mailto:karthikpotti842@gmail.com)
 * **Location:** Hyderabad, India
 * **GitHub:** [github.com/KarthikP-Mac](https://github.com/KarthikP-Mac)
+* **Hugging Face:** [huggingface.co/KarthikP-Mac/spaces](https://huggingface.co/KarthikP-Mac/spaces)
 * **Portfolio:** [karthikp-mac-portfolio.vercel.app](https://karthikp-mac-portfolio.vercel.app/)
 * **Google Developer Profile:** [g.dev/karthikPMac](https://g.dev/karthikPMac)
 * **LinkedIn:** [linkedin.com/in/karthik-potti842](http://www.linkedin.com/in/karthik-potti842)
@@ -20,7 +21,7 @@ Results-driven Full Stack Developer and AI Engineer with 4+ years of professiona
 ## Technical Skills
 
 * **Programming Languages:** Java, Python, JavaScript, TypeScript, C, HTML5, CSS3
-* **Frontend:** React, Angular, Angular Material, Vite, Bootstrap, Materialize CSS, jQuery, CSS3, PWA
+* **Frontend:** React, Angular, Angular Material, Vite, Bootstrap, Materialize CSS, jQuery, CSS3, PWA, Font Awesome
 * **Backend:** Java Spring Boot, Node.js, Express.js, Flask, FastAPI, REST APIs, WebSocket, Microservices
 * **Desktop & UI:** Tkinter (Python GUI)
 * **AI / ML / GenAI:** LangChain, LangGraph, AutoGen AI, AI Agents, RAG, CRAG, Prompt Engineering, FAISS Vector DB, Azure RAG Index, Groq API, OpenAI API, Gemini API, Claude API, ElevenLabs, ONNX Runtime (Kokoro), Streamlit, Azure OCR, Microsoft Logic Apps
@@ -69,17 +70,17 @@ Results-driven Full Stack Developer and AI Engineer with 4+ years of professiona
 ### GenAI & RAG Applications
 
 #### BFSI-Insurance-Ai-Agent (Banking AI Copilot) — *[Live Demo](https://karthikp-mac-banking-ai-copilot.hf.space/)*
-*Tech: Python, LangChain, CRAG, FAISS Vector DB, Streamlit, Hugging Face Embeddings, Groq / Gemini / OpenAI / Claude*
+*Tech: Python, LangChain, CRAG, FAISS Vector DB, Streamlit, Multi-LLM Orchestration (Groq, Llama-4 Scout 17B), Hugging Face*
 
-* Developed a domain-specific financial AI assistant that answers complex BFSI queries using a robust **Corrective RAG (CRAG)** pipeline with custom recursive text splitters, **FAISS vector database**, and multi-LLM support (Groq, Gemini, OpenAI, Claude).
-* Designed modular LangChain retrieval chains supporting dynamic LLM switching and configurable context windows, improving answer accuracy for domain-specific financial queries.
+* Developed a domain-specific financial AI assistant that answers complex BFSI queries using a robust **Corrective RAG (CRAG)** pipeline, **FAISS vector database**, and a **Multi-Model LLM Orchestration** architecture — configured with **Llama-4 Scout 17B** (meta-llama/llama-4-scout-17b-16e-instruct) as the active primary reasoning engine, with dynamic hot-swapping fallback routing across Llama-3.3-70b, Llama-3.1-8b, and Qwen-3 to manage token limits and optimize cost per query.
+* Designed modular **LangChain** retrieval chains with pluggable model-routing middleware and provider-agnostic interfaces, ensuring zero-downtime hot-swapping of LLM backends without pipeline refactoring.
 
 #### Jarvis AI Assistant (Real-Time Voice Assistant) — *[Live Demo](https://karthikp-mac-jarvis-ai-assistant.hf.space/)*
-*Tech: Vite + React, FastAPI, Python, WebSockets, Groq (Whisper + Llama), ONNX Runtime (Kokoro-ONNX), ElevenLabs, Docker, Hugging Face Spaces*
+*Tech: Vite + React, FastAPI, Python, WebSockets, Groq (Whisper + Llama-4 Scout), ONNX Runtime (Kokoro-ONNX), ElevenLabs, Docker, Hugging Face Spaces*
 
-* Engineered a real-time, voice-activated AI assistant with a cyberpunk React UI and a **FastAPI ASGI** server handling bidirectional **WebSocket** streaming of raw audio packets.
-* Implemented dual-engine TTS pipeline: cloud-based **ElevenLabs** for premium voice and local **Kokoro-ONNX** for offline English synthesis — with Web Speech API as fallback for multi-lingual support (Hindi, Telugu).
-* Integrated **Groq API** (Whisper-large-v3-turbo for STT, Llama-3.3-70b for reasoning), a double-layered regex safety guardrail filter, and deployed as a monolithic **Docker** container on Hugging Face Spaces.
+* Engineered a real-time, **Multimodal Voice-to-Voice AI Assistant** featuring a cyberpunk React UI and a **FastAPI ASGI** server handling duplex **WebSocket** streaming of raw audio packets.
+* Implemented a dual-engine speech synthesis pipeline (cloud-based **ElevenLabs** for premium voice streaming and local **Kokoro-ONNX** / ONNX Runtime for zero-latency offline English voice generation).
+* Integrated a **Multi-Model LLM Routing Layer** powered by **Groq API**, utilizing **Llama-4 Scout 17B** as the active primary model (best quality/throughput ratio at 500K TPD) with alternative fallbacks to Llama-3.3-70b-versatile (complex reasoning) and Llama-3.1-8b-instant (low-latency responses), protected by a double-layered regex safety guardrail.
 
 ---
 
