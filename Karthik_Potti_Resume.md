@@ -70,17 +70,17 @@ Results-driven Full Stack Developer and AI Engineer with 4+ years of professiona
 ### GenAI & RAG Applications
 
 #### BFSI-Insurance-Ai-Agent (Banking AI Copilot) — *[Live Demo](https://karthikp-mac-banking-ai-copilot.hf.space/)*
-*Tech: Python, LangChain, CRAG, FAISS Vector DB, Streamlit, Multi-LLM Orchestration (Groq, Llama-4 Scout 17B), Hugging Face*
+*Tech: Python, LangChain, CRAG, FAISS Vector DB, Streamlit, Multi-LLM Orchestration (Groq, Qwen3.6 27B), Hugging Face*
 
-* Developed a domain-specific financial AI assistant that answers complex BFSI queries using a robust **Corrective RAG (CRAG)** pipeline, **FAISS vector database**, and a **Multi-Model LLM Orchestration** architecture — configured with **Llama-4 Scout 17B** (meta-llama/llama-4-scout-17b-16e-instruct) as the active primary reasoning engine, with dynamic hot-swapping fallback routing across Llama-3.3-70b, Llama-3.1-8b, and Qwen-3 to manage token limits and optimize cost per query.
+* Developed a domain-specific financial AI assistant that answers complex BFSI queries using a robust **Corrective RAG (CRAG)** pipeline, **FAISS vector database**, and a **Multi-Model LLM Orchestration** architecture — configured with **Qwen3.6 27B** (qwen/qwen3.6-27b) as the active primary reasoning engine, with dynamic hot-swapping fallback routing across Llama-3.3-70b, Llama-3.1-8b, and GPT-OSS-120B to manage token limits and optimize cost per query.
 * Designed modular **LangChain** retrieval chains with pluggable model-routing middleware and provider-agnostic interfaces, ensuring zero-downtime hot-swapping of LLM backends without pipeline refactoring.
 
 #### Jarvis AI Assistant (Real-Time Voice Assistant) — *[Live Demo](https://karthikp-mac-jarvis-ai-assistant.hf.space/)*
-*Tech: Vite + React, FastAPI, Python, WebSockets, Groq (Whisper + Llama-4 Scout), ONNX Runtime (Kokoro-ONNX), ElevenLabs, Docker, Hugging Face Spaces*
+*Tech: Vite + React, FastAPI, Python, WebSockets, Groq (Whisper + Qwen3.6 27B), ONNX Runtime (Kokoro-ONNX), ElevenLabs, Docker, Hugging Face Spaces*
 
 * Engineered a real-time, **Multimodal Voice-to-Voice AI Assistant** featuring a cyberpunk React UI and a **FastAPI ASGI** server handling duplex **WebSocket** streaming of raw audio packets.
 * Implemented a dual-engine speech synthesis pipeline (cloud-based **ElevenLabs** for premium voice streaming and local **Kokoro-ONNX** / ONNX Runtime for zero-latency offline English voice generation).
-* Integrated a **Multi-Model LLM Routing Layer** powered by **Groq API**, utilizing **Llama-4 Scout 17B** as the active primary model (best quality/throughput ratio at 500K TPD) with alternative fallbacks to Llama-3.3-70b-versatile (complex reasoning) and Llama-3.1-8b-instant (low-latency responses), protected by a double-layered regex safety guardrail.
+* Integrated a **Multi-Model LLM Routing Layer** powered by **Groq API**, utilizing **Qwen3.6 27B** (qwen/qwen3.6-27b) as the active primary model with alternative fallbacks to openai/gpt-oss-120b (complex reasoning) and Llama-3.1-8b-instant (low-latency responses), protected by a double-layered regex safety guardrail.
 
 ---
 

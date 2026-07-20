@@ -822,13 +822,13 @@
                   Demo</a>
               </div>
               <span class="project-item-tech">Python | LangChain | CRAG | FAISS Vector DB | Streamlit | Multi-LLM
-                Orchestration (Groq, Llama-4 Scout 17B) | Hugging Face</span>
+                Orchestration (Groq, Qwen3.6 27B) | Hugging Face</span>
               <p class="project-item-desc">Developed a domain-specific financial assistant using a <strong>Corrective
                   RAG (CRAG)</strong>
                 pipeline with <strong>FAISS</strong> semantic retrieval and a <strong>Multi-Model LLM
-                  Orchestration</strong> architecture &mdash; configured with <strong>Llama-4 Scout 17B</strong>
-                (meta-llama/llama-4-scout-17b-16e-instruct) as the active primary reasoning engine, with dynamic
-                hot-swapping fallback routing across Llama-3.3-70b, Llama-3.1-8b, and Qwen-3 to manage token limits and
+                  Orchestration</strong> architecture &mdash; configured with <strong>Qwen3.6 27B</strong>
+                (qwen/qwen3.6-27b) as the active primary reasoning engine, with dynamic
+                hot-swapping fallback routing across Llama-3.3-70b, Llama-3.1-8b, and GPT-OSS-120B to manage token limits and
                 optimize cost per query.
                 <br />&bull; Designed modular <strong>LangChain</strong> retrieval chains with pluggable model-routing
                 middleware and provider-agnostic interfaces for zero-downtime hot-swapping of LLM backends without
@@ -845,7 +845,7 @@
                   Demo</a>
               </div>
               <span class="project-item-tech">Vite + React | FastAPI (ASGI) | Python | WebSockets | Groq (Whisper +
-                Llama-4 Scout) | ONNX Runtime (Kokoro) | ElevenLabs | Docker | Hugging Face Spaces</span>
+                Qwen3.6 27B) | ONNX Runtime (Kokoro) | ElevenLabs | Docker | Hugging Face Spaces</span>
               <p class="project-item-desc">
                 Engineered a real-time, <strong>Multimodal Voice-to-Voice AI Assistant</strong> featuring a cyberpunk
                 React UI and a <strong>FastAPI
@@ -854,10 +854,9 @@
                 <strong>ElevenLabs</strong> for premium voice streaming and local <strong>Kokoro-ONNX</strong> / ONNX
                 Runtime for zero-latency offline English voice generation).
                 <br />&bull; Integrated a <strong>Multi-Model LLM Routing Layer</strong> powered by <strong>Groq
-                  API</strong>, utilizing <strong>Llama-4 Scout 17B</strong> as the active primary model (best
-                quality/throughput ratio at 500K TPD) with alternative fallbacks to Llama-3.3-70b-versatile (complex
-                reasoning) and Llama-3.1-8b-instant (low-latency responses), protected by a double-layered regex safety
-                guardrail.
+                  API</strong>, utilizing <strong>Qwen3.6 27B</strong> (qwen/qwen3.6-27b) as the active primary model
+                with alternative fallbacks to openai/gpt-oss-120b (complex reasoning) and Llama-3.1-8b-instant
+                (low-latency responses), protected by a double-layered regex safety guardrail.
               </p>
             </div>
 
