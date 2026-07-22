@@ -675,7 +675,7 @@
           <div class="timeline-item">
             <div class="timeline-header">
               <div>
-                <span class="role-title">IT Systems Engineer</span><br>
+                <span class="role-title">IT Systems Engineer — Full Stack &amp; AI Developer</span><br>
                 <span class="company-name">Tata Consultancy Services (Equitable Financial Life Insurance)</span>
               </div>
               <span class="timeline-date">May 2022 - Present</span>
@@ -746,7 +746,8 @@
                 <li>Developed and maintained <strong>Angular</strong> (<strong>Angular Material</strong> /
                   <strong>TypeScript</strong>) and <strong>React</strong> component libraries alongside RESTful APIs
                   using <strong>Spring Boot</strong> and <strong>Flask</strong>, reducing UI development cycles by 35%
-                  and enabling seamless UI–backend integration across multiple enterprise applications.</li>
+                  and enabling seamless UI–backend integration across multiple enterprise applications.
+                </li>
                 <li>Resolved <strong>100+ application security vulnerabilities</strong> as part of Equitable's
                   Vulnerability Remediation Team, achieving full compliance in <strong>Veracode</strong> security scans
                   and all internal audits.</li>
@@ -774,155 +775,125 @@
 
           <div class="project-grid">
 
-            <!-- Web-RTC -->
+            <!-- 1. Web-RTC -->
             <div class="project-item">
               <div class="project-item-title">
-                <span>Web-RTC (Live Random Video Calls)</span>
+                <span>WebRTC Real-Time Video Conferencing Engine</span>
                 <a href="https://web-rtc-lq00.onrender.com/" class="project-item-link" target="_blank">Live Demo</a>
               </div>
-              <span class="project-item-tech">React | WebRTC | Spring Boot | Java Virtual Threads | WebSocket |
-                Render</span>
-              <p class="project-item-desc">Developed a peer-to-peer video conferencing application with real-time screen
-                sharing, signaling handling, and adaptive media stream controls. Backend powered by <strong>Java Virtual
-                  Threads</strong> (Project Loom) for high-concurrency signaling, deployed as a <strong>monolithic
-                  Docker</strong> container on Render.</p>
+              <span class="project-item-tech">React | WebRTC | Spring Boot | Java 21 Virtual Threads | WebSockets | Docker | Render</span>
+              <p class="project-item-desc">Developed a peer-to-peer video conferencing platform with real-time screen
+                sharing, signaling handling, and adaptive media stream controls. Backend powered by <strong>Java 21 Virtual
+                  Threads</strong> (Project Loom) for high-concurrency WebSocket signaling, deployed as a containerized
+                <strong>Docker microservice</strong> on Render.</p>
             </div>
 
-            <!-- Web-Sockets -->
+            <!-- 2. Web-Sockets -->
             <div class="project-item">
               <div class="project-item-title">
-                <span>Web-Sockets (Live Chats)</span>
+                <span>Real-Time WebSocket Chat Infrastructure</span>
                 <a href="https://web-sockets-ju5x.onrender.com/" class="project-item-link" target="_blank">Live Demo</a>
               </div>
-              <span class="project-item-tech">Angular | Spring Boot | WebSocket (STOMP) | Docker | Render</span>
-              <p class="project-item-desc">Built a real-time messaging architecture using <strong>STOMP</strong>
-                protocol, ensuring
-                bi-directional low-latency data flow with active user connection tracking, deployed as a
-                <strong>monolithic Docker</strong> container on Render.</p>
+              <span class="project-item-tech">Angular | Spring Boot | WebSocket (STOMP) | Microservices | Docker | Render</span>
+              <p class="project-item-desc">Built a real-time messaging architecture using <strong>STOMP protocol over WebSockets</strong>, ensuring
+                bi-directional low-latency data flow with active user connection tracking, deployed as a containerized
+                <strong>Docker microservice</strong> on Render.
+              </p>
             </div>
 
-            <!-- Sticky-Notes -->
+            <!-- 3. Sticky-Notes -->
             <div class="project-item">
               <div class="project-item-title">
-                <span>Sticky-Notes</span>
+                <span>Sticky-Notes Workspace (Progressive Web App)</span>
                 <a href="https://stickynotes-pk-mac.vercel.app/" class="project-item-link" target="_blank">Live Demo</a>
               </div>
-              <span class="project-item-tech">React | PWA | Firebase Firestore | Firebase Auth (Google OAuth2) |
-                LocalStorage | Lucide React | Vercel</span>
-              <p class="project-item-desc">Engineered a PWA digital board with multi-modal views (Kanban/Canvas).
-                Implemented custom drag-and-drop mechanics, Google OAuth2 sign-in via Firebase Auth, and Firebase-backed
-                offline sync for persistent multi-tab state management.</p>
+              <span class="project-item-tech">React | PWA | Firebase Firestore | Firebase Auth (Google OAuth2) | LocalStorage | Vercel</span>
+              <p class="project-item-desc">Engineered a <strong>React PWA</strong> digital workspace with interactive Kanban/Canvas views, custom drag-and-drop mechanics, <strong>Google OAuth2</strong> authentication via Firebase Auth, and <strong>Firebase Firestore</strong> offline data synchronization for persistent multi-tab state management.</p>
             </div>
 
+            <!-- 4. BFSI Banking AI Copilot -->
             <div class="project-item">
               <div class="project-item-title">
-                <span>BFSI-Insurance-Ai-Agent (Banking AI Copilot)</span>
+                <span>BFSI Banking AI Copilot &amp; Agentic RAG Pipeline</span>
                 <a href="https://karthikp-mac-banking-ai-copilot.hf.space/" class="project-item-link"
-                  target="_blank">Live
-                  Demo</a>
+                  target="_blank">Live Demo</a>
               </div>
-              <span class="project-item-tech">Python | LangChain | CRAG | FAISS Vector DB | Streamlit | Multi-LLM
-                Orchestration (Groq, Qwen3.6 27B) | Hugging Face</span>
-              <p class="project-item-desc">Developed a domain-specific financial assistant using a <strong>Corrective
-                  RAG (CRAG)</strong>
-                pipeline with <strong>FAISS</strong> semantic retrieval and a <strong>Multi-Model LLM
-                  Orchestration</strong> architecture &mdash; configured with <strong>Qwen3.6 27B</strong>
-                (qwen/qwen3.6-27b) as the active primary reasoning engine, with dynamic
-                hot-swapping fallback routing across Llama-3.3-70b, Llama-3.1-8b, and GPT-OSS-120B to manage token limits and
-                optimize cost per query.
-                <br />&bull; Designed modular <strong>LangChain</strong> retrieval chains with pluggable model-routing
-                middleware and provider-agnostic interfaces for zero-downtime hot-swapping of LLM backends without
-                pipeline refactoring.
+              <span class="project-item-tech">Python | LangChain | CRAG | FAISS Vector DB | Streamlit | Multi-LLM Orchestration (Groq API, Qwen3.6 27B) | Hugging Face</span>
+              <p class="project-item-desc">Developed an enterprise financial assistant using a <strong>Corrective RAG (CRAG)</strong>
+                pipeline with <strong>FAISS Vector DB</strong> semantic retrieval and a <strong>Multi-Model LLM Orchestration</strong> architecture &mdash; configured with <strong>Qwen3.6 27B</strong> (qwen/qwen3.6-27b) as the primary reasoning engine with dynamic fallback routing across Llama 3.3 and GPT-OSS to manage token limits and optimize query costs.
+                <br />&bull; Designed modular <strong>LangChain</strong> retrieval chains with pluggable model-routing middleware for zero-downtime hot-swapping of LLM backends without pipeline refactoring.
               </p>
             </div>
 
-            <!-- Jarvis AI Assistant -->
+            <!-- 5. Jarvis AI Assistant -->
             <div class="project-item">
               <div class="project-item-title">
-                <span>Jarvis AI Assistant (Voice-Activated Assistant)</span>
+                <span>Jarvis Multimodal Voice-to-Voice AI Assistant</span>
                 <a href="https://karthikp-mac-jarvis-ai-assistant.hf.space/" class="project-item-link"
-                  target="_blank">Live
-                  Demo</a>
+                  target="_blank">Live Demo</a>
               </div>
-              <span class="project-item-tech">Vite + React | FastAPI (ASGI) | Python | WebSockets | Groq (Whisper +
-                Qwen3.6 27B) | ONNX Runtime (Kokoro) | ElevenLabs | Docker | Hugging Face Spaces</span>
+              <span class="project-item-tech">Vite + React | FastAPI (ASGI) | Python | WebSockets | Groq (Whisper + Qwen3.6 27B) | ONNX Runtime (Kokoro) | ElevenLabs | Docker | Hugging Face</span>
               <p class="project-item-desc">
-                Engineered a real-time, <strong>Multimodal Voice-to-Voice AI Assistant</strong> featuring a cyberpunk
-                React UI and a <strong>FastAPI
-                  ASGI</strong> server handling duplex <strong>WebSocket</strong> streaming of raw audio packets.
-                <br />&bull; Implemented a dual-engine speech synthesis pipeline (cloud-based
-                <strong>ElevenLabs</strong> for premium voice streaming and local <strong>Kokoro-ONNX</strong> / ONNX
-                Runtime for zero-latency offline English voice generation).
-                <br />&bull; Integrated a <strong>Multi-Model LLM Routing Layer</strong> powered by <strong>Groq
-                  API</strong>, utilizing <strong>Qwen3.6 27B</strong> (qwen/qwen3.6-27b) as the active primary model
-                with alternative fallbacks to openai/gpt-oss-120b (complex reasoning) and Llama-3.1-8b-instant
-                (low-latency responses), protected by a double-layered regex safety guardrail.
+                Engineered a real-time <strong>Multimodal Voice-to-Voice AI Assistant</strong> featuring a <strong>React UI</strong> and a <strong>FastAPI ASGI</strong> server handling duplex <strong>WebSocket</strong> streaming of raw audio packets.
+                <br />&bull; Implemented dual-engine speech synthesis (cloud-based <strong>ElevenLabs</strong> and local <strong>Kokoro-ONNX</strong> Runtime for zero-latency voice generation) paired with Groq Whisper speech-to-text.
+                <br />&bull; Integrated a <strong>Multi-Model LLM Routing Layer</strong> powered by <strong>Groq API</strong>, protected by a double-layered regex safety guardrail.
               </p>
             </div>
 
-            <!-- React & ExpressNode Institution Portal -->
+            <!-- 6. Institution Portal -->
             <div class="project-item">
               <div class="project-item-title">
-                <span>Institution Portal (React UI & ExpressNode Backend)</span>
-                <a href="https://adarsh-computers.vercel.app/" class="project-item-link" target="_blank">Live
-                  Website</a>
+                <span>Enterprise Institution Web Portal (Full Stack)</span>
+                <a href="https://adarsh-computers.vercel.app/" class="project-item-link" target="_blank">Live Website</a>
               </div>
-              <span class="project-item-tech">React | Node.js | Express | Bootstrap | SMTP | Vercel | Render</span>
-              <p class="project-item-desc">Developed a full stack institution web portal to manage courses, student
-                records, announcements, and online quizzes.</p>
+              <span class="project-item-tech">React | Node.js | Express.js | REST APIs | Bootstrap | SMTP | Vercel | Render</span>
+              <p class="project-item-desc">Developed a full-stack web portal managing course enrollment, student records, announcements, and online quizzes using <strong>React</strong>, <strong>Node.js</strong>, <strong>Express.js</strong> REST APIs, and automated SMTP email notifications.</p>
             </div>
 
+            <!-- 7. Institution Landing Page Portal -->
             <div class="project-item">
               <div class="project-item-title">
-                <span>Institution Landing Page Portal</span>
+                <span>Responsive Institution Landing Portal</span>
               </div>
-              <span class="project-item-tech">HTML5 | CSS3 | JavaScript | jQuery | Bootstrap</span>
-              <p class="project-item-desc">Built a responsive frontend portal with dynamic landing pages, mobile-first
-                layouts, and interactive UI components for a computer education institution.</p>
+              <span class="project-item-tech">HTML5 | CSS3 | JavaScript (ES6+) | jQuery | Bootstrap | Mobile-First UX</span>
+              <p class="project-item-desc">Built a responsive frontend web portal featuring dynamic landing pages, mobile-first CSS layouts, cross-browser compatibility, and interactive UI components for a computer education institution.</p>
             </div>
 
+            <!-- 8. Smart Stocker -->
             <div class="project-item">
               <div class="project-item-title">
-                <span>Smart Stocker — Inventory &amp; Ledger App</span>
+                <span>Smart Stocker — Desktop ERP &amp; Ledger System</span>
               </div>
-              <span class="project-item-tech">Python | Tkinter | SQLite3 | Excel (openpyxl) | SMTP | Matplotlib | AI Bot
-                | JSON</span>
+              <span class="project-item-tech">Python | Tkinter | SQLite3 | Excel (openpyxl) | Matplotlib Analytics | PDF Generation</span>
               <p class="project-item-desc">
-                Designed a standalone desktop ERP and ledger system using <strong>Python (Tkinter)</strong> and
-                <strong>SQLite3</strong>, featuring local data caching, asynchronous background auto-saves, and
-                Matplotlib-based analytics dashboards.
-                <br />• Implemented an automated stock advisory module providing real-time stock alert thresholds
-                (yellow/red warnings) and predictive profit forecasting.
-                <br />• Integrated secure PDF document compilation for automated generation of invoices, purchase
-                orders, and monthly ledger sheets.
+                Designed a standalone desktop ERP and ledger system using <strong>Python (Tkinter)</strong> and <strong>SQLite3</strong>, featuring local data caching, asynchronous background auto-saves, and Matplotlib-based analytics dashboards.
+                <br />• Implemented an automated stock advisory module providing real-time stock alert thresholds and predictive profit forecasting.
+                <br />• Integrated secure PDF document compilation for automated generation of invoices, purchase orders, and monthly ledger sheets.
               </p>
             </div>
 
+            <!-- 9. PDF Batch Processor -->
             <div class="project-item">
               <div class="project-item-title">
-                <span>PDF Batch Processor</span>
+                <span>PDF Batch Processing &amp; Document Automation Utility</span>
               </div>
-              <span class="project-item-tech">Python | Tkinter | PyPDF | Pillow | OS APIs | File Automation</span>
+              <span class="project-item-tech">Python | Tkinter | PyPDF | Pillow | File Automation | Windows APIs</span>
               <p class="project-item-desc">
-                Engineered a desktop utility using <strong>Python (Tkinter)</strong> to batch convert entire folders of
-                images into high-quality, compressed PDFs with a live progress renderer.
-                <br />• Supports custom page and image ordering with a **live sequence preview** (allowing interactive
-                drag-and-drop or button-based reordering) before exporting the final PDF.
-                <br />• Implemented selective page extraction (e.g., picking 2 of 10 pages) and image-only extraction
-                from existing PDF documents.
+                Engineered a desktop utility using <strong>Python (Tkinter)</strong> to batch convert entire folders of images into high-quality, compressed PDFs with a live progress renderer.
+                <br />• Supports custom page and image ordering with a live sequence preview before exporting the final PDF.
+                <br />• Implemented selective page extraction and image-only extraction from existing PDF documents.
               </p>
             </div>
 
+            <!-- 10. System Power Scheduler -->
             <div class="project-item">
               <div class="project-item-title">
-                <span>System Power Scheduler</span>
+                <span>System Power Automation &amp; Task Scheduler</span>
               </div>
               <span class="project-item-tech">Python | Tkinter | Windows OS APIs | JSON | Task Scheduling</span>
               <p class="project-item-desc">
-                Developed a desktop power automation tool in <strong>Python (Tkinter)</strong> that schedules system
-                events (shutdown, sleep, lock) via countdown timers and persistent daily schedules saved in JSON.
-                <br />• Implemented a system-overlay countdown notification in the final 5 minutes of a scheduled event,
-                with password-protected controls to cancel timers, edit tasks, or exit.
+                Developed a system automation tool in <strong>Python (Tkinter)</strong> that schedules system events (shutdown, sleep, lock) via countdown timers and persistent daily schedules saved in JSON.
+                <br />• Implemented a system-overlay countdown notification in the final 5 minutes of a scheduled event with password-protected controls.
               </p>
             </div>
 
