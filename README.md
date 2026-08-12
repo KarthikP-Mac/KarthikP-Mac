@@ -129,6 +129,12 @@
       <img src="assets/jarvis_ai_assistant.png" width="100%" alt="Jarvis AI Assistant Preview" style="border-radius: 8px; margin: 10px 0;" />
     </a>
 
+*   **HackerRank Orchestrate — Multimodal AI Notification Router**
+    *   *Description:* Built an end-to-end AI-powered WhatsApp message notification router during the 24-hour HackerRank Orchestrate hackathon. Reasons over multimodal inputs (text, image posters/screenshots, and voice notes) using OCR, ASR, LLM prompt engineering, and dynamic context graphs to personalize message routing into `notify`, `digest`, or `mute` actions with calibrated confidence scoring.
+    *   *Tech Stack:* ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?style=flat-square&logo=hackerrank&logoColor=white) `Multimodal AI` `OCR (Vision)` `ASR (Audio)` `Context Graphs` `LLM Routing`
+    
+    <img src="assets/hackerrank_orchestrate_preview.webp" width="100%" alt="HackerRank Orchestrate Preview" style="border-radius: 8px; margin: 10px 0;" />
+
 ---
 
 ### 💼 Live Institutional Web Applications (Private)

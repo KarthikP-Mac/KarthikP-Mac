@@ -69,6 +69,15 @@ Results-driven Full Stack Developer and AI Engineer with 4+ years of professiona
 
 ### GenAI & RAG Applications
 
+#### HackerRank Orchestrate — Multimodal AI Notification Router — *[Preview Asset](assets/hackerrank_orchestrate_preview.webp)*
+*Tech: Python | Pandas | LLM Prompt Engineering | OCR (Image Analysis) | ASR (Voice Notes) | Context Graph Building | Confidence Calibration*
+
+* Engineered an end-to-end **AI-powered WhatsApp message notification router** in a 24-hour HackerRank hackathon, processing multimodal inputs (text, image posters/screenshots, and voice notes) to classify messages into `notify`, `digest`, or `mute` actions with confidence scoring.
+* Built a dynamic **context-builder** synthesizing 12+ data sources — user behavior, group metadata, business sender history, message events, and daily notification load — to produce personalized routing decisions per user.
+* Implemented **media processing pipelines** for OCR-based image analysis and ASR-based voice note transcription, enabling multimodal reasoning over non-text message content.
+
+<img src="assets/hackerrank_orchestrate_preview.webp" alt="HackerRank Orchestrate Preview" width="100%" style="border-radius: 8px; margin: 10px 0;" />
+
 #### BFSI Banking AI Copilot & Agentic RAG Pipeline — *[Live Demo](https://karthikp-mac-banking-ai-copilot.hf.space/)*
 *Tech: Python | LangChain | CRAG | FAISS Vector DB | Streamlit | Multi-LLM Orchestration (Groq API, Qwen3.6 27B) | Hugging Face*
 
@@ -138,6 +147,21 @@ Results-driven Full Stack Developer and AI Engineer with 4+ years of professiona
 
 * Developed a system automation tool in **Python (Tkinter)** that schedules system events (shutdown, sleep, lock) via countdown timers and persistent daily schedules saved in JSON.
 * Implemented a system-overlay countdown notification in the final 5 minutes of a scheduled event with password-protected controls.
+
+---
+
+## Certifications & Credentials
+
+* **Frontend Developer (React)** — HackerRank *(React Architecture, State & Hooks, Component Lifecycle)* — [Verify](https://www.hackerrank.com/certificates/cf5fd5bbb5db)
+* **Software Engineer** — HackerRank *(Data Structures, Algorithms, Software Architecture)* — [Verify](https://www.hackerrank.com/certificates/178cc7dbb188)
+* **SQL (Advanced)** — HackerRank *(Window Functions, CTEs, Complex JOINs, Query Optimization)* — [Verify](https://www.hackerrank.com/certificates/e28ff148700a)
+* **Angular (Intermediate)** — HackerRank *(Angular, TypeScript, RxJS, Reactive Forms)* — [Verify](https://www.hackerrank.com/certificates/b7f65df92357)
+* **JavaScript (Intermediate)** — HackerRank *(ES6+, Promises & Async, Closures, DOM)* — [Verify](https://www.hackerrank.com/certificates/0467c8815451)
+* **Node.js (Intermediate)** — HackerRank *(Node.js, Express.js, Asynchronous I/O)* — [Verify](https://www.hackerrank.com/certificates/cfc75f00230f)
+* **REST API (Intermediate)** — HackerRank *(RESTful APIs, HTTP Protocols, JSON, API Design)* — [Verify](https://www.hackerrank.com/certificates/571f27af280d)
+* **Python (Basic)** — HackerRank *(Python 3, OOP, Data Structures)* — [Verify](https://www.hackerrank.com/certificates/d45aabbcdc0a)
+* **Java (Basic)** — HackerRank *(Java Core, OOP Design, Collections Framework)* — [Verify](https://www.hackerrank.com/certificates/93c7356dae25)
+* **CSS** — HackerRank *(CSS3, Flexbox, CSS Grid, Responsive Layouts)* — [Verify](https://www.hackerrank.com/certificates/4346a0115e77)
 
 ---
 
