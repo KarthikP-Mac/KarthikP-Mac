@@ -1,180 +1,74 @@
 # Karthik Potti
-**Full Stack Developer & AI Engineer | Enterprise Microservices & GenAI Agentic Systems**
+**Full Stack Developer**
 
-* **Phone:** +91 9515759632
-* **Email:** [karthikpotti842@gmail.com](mailto:karthikpotti842@gmail.com)
-* **Location:** Hyderabad, India
-* **GitHub:** [github.com/KarthikP-Mac](https://github.com/KarthikP-Mac)
-* **Hugging Face:** [huggingface.co/KarthikP-Mac/spaces](https://huggingface.co/KarthikP-Mac/spaces)
-* **Portfolio:** [karthikp-mac-portfolio.vercel.app](https://karthikp-mac-portfolio.vercel.app/)
-* **Google Developer Profile:** [g.dev/karthikPMac](https://g.dev/karthikPMac)
-* **LinkedIn:** [linkedin.com/in/karthik-potti842](http://www.linkedin.com/in/karthik-potti842)
+📍 Hyderabad, India &nbsp;|&nbsp; 📞 [+91 9515759632](tel:+919515759632) &nbsp;|&nbsp; ✉️ [karthikpotti842@gmail.com](mailto:karthikpotti842@gmail.com)  
+🐙 [github.com/KarthikP-Mac](https://github.com/KarthikP-Mac) &nbsp;|&nbsp; 💼 [linkedin.com/in/karthik-potti842](https://linkedin.com/in/karthik-potti842)
 
 ---
 
 ## Professional Summary
 
-Results-driven Full Stack Developer and AI Engineer with 4+ years of professional experience at Tata Consultancy Services (TCS), specializing in enterprise-scale web applications, distributed system design, and Generative AI solutions for the BFSI sector. Expert in architecting microservices and single-page applications using Java, Spring Boot, React, Angular, and Node.js. Proven track record of designing high-performance Retrieval-Augmented Generation (RAG/CRAG) pipelines using LangChain, LangGraph, and FAISS Vector databases, automating business workflows via AutoGen Multi-Agent frameworks, and deploying containerized services on Azure Kubernetes Service (AKS). Accomplished in remediating 100+ security vulnerabilities, reducing CI/CD deployment time by 70%, and decreasing system Mean Time to Resolution (MTTR) by 45% while achieving 100% security audit compliance.
+Full Stack Developer with 4+ years of experience at Tata Consultancy Services building enterprise web applications and microservices for the BFSI sector using Java, Spring Boot, React, Angular, Node.js and Python. Experienced in REST API design, secure authentication (JWT, RBAC, OAuth2), CI/CD with Azure DevOps, Docker and Azure Kubernetes Service, and integrating Generative AI (RAG, LangChain) into production applications.
 
 ---
 
 ## Technical Skills
 
-* **Programming Languages:** Java, Python, JavaScript, TypeScript, C, HTML5, CSS3
-* **Frontend:** React, Angular, Angular Material, Vite, Bootstrap, Materialize CSS, jQuery, CSS3, PWA, Font Awesome
-* **Backend:** Java Spring Boot, Node.js, Express.js, Flask, FastAPI, REST APIs, WebSocket, Microservices
-* **Desktop & UI:** Tkinter (Python GUI)
-* **AI / ML / GenAI:** LangChain, LangGraph, AutoGen AI, AI Agents, RAG, CRAG, Prompt Engineering, FAISS Vector DB, Azure RAG Index, Groq API, OpenAI API, Gemini API, Claude API, ElevenLabs, ONNX Runtime (Kokoro), Streamlit, Azure OCR, Microsoft Logic Apps
-* **Databases:** Oracle SQL, MySQL, MongoDB, Firebase Firestore
-* **Cloud & DevOps:** Azure DevOps (CI/CD), Docker, Azure Kubernetes, GitHub Actions, Vercel, Render, Hugging Face Spaces
-* **Security & Tools:** JWT Authentication, RBAC (Role-Based Authorization), OAuth2 (Google Sign-In / Firebase Auth), Veracode, Maven, Postman, WinSCP, Linux, Git, GitHub, Power BI
+- **Languages:** Java, Python, JavaScript, TypeScript, C, HTML5, CSS3, SQL
+- **Frontend:** Angular, React, Angular Material, Vite, Bootstrap, jQuery, PWA
+- **Backend:** Spring Boot, Node.js, Express.js, Flask, FastAPI, REST APIs, WebSocket, Microservices
+- **AI & GenAI:** LangChain, LangGraph, AutoGen, RAG/CRAG, FAISS, Prompt Engineering, OpenAI API, Gemini API, Claude API, Groq API, Azure OCR
+- **Databases:** Oracle SQL, MySQL, MongoDB, Firebase Firestore
+- **DevOps & Cloud:** Azure DevOps (CI/CD), Docker, Azure Kubernetes Service, GitHub Actions, Vercel, Render, Linux, Maven, Git
+- **Security & Tools:** JWT, RBAC, OAuth2, Veracode, Postman, Power BI, WinSCP
 
 ---
 
 ## Professional Experience
 
-### Tata Consultancy Services (TCS)
-**IT Systems Engineer — Full Stack & AI Developer** | *Client: Equitable Financial Life Insurance (BFSI)*  
-*May 2022 – Present* | *Hyderabad, India*
+### IT Systems Engineer – Full Stack Developer | May 2022 – Present
+*Tata Consultancy Services (Equitable Financial Life Insurance)* | *Hyderabad, India*
 
-#### Project 1: GenAI — Upsell, Cross-Sell & Operational Call Intelligence
-*Role: AI Developer & Automation Engineer*
+#### Latte Rewrite & ACH Integration (Java, Spring Boot, Angular)
+- Developed high-throughput Spring Boot backend services and Angular (Angular Material, TypeScript) UIs for ACH payment integration with Bank of America, securely processing $10M+ in quarterly transactions.
+- Built a custom multi-window modal manager in Angular that mimics desktop OS behavior by managing z-index stacking, improving UX for complex financial workflows.
+- Led vulnerability remediation across 100+ critical REST APIs by centralizing security patches in a reusable Maven JAR, ensuring compliance across 10+ microservices and cutting duplicate effort by about 60%.
+- Managed Linux batch automation jobs using shell scripting and WinSCP, achieving 99.9% pipeline reliability.
 
-* Architected and deployed end-to-end **Generative AI pipelines** using **Python**, **LangChain**, and **RAG** to extract and analyze **7,000–9,000 daily call recording transcripts** from **Genesys PureCloud** into SQL, surfacing upsell/cross-sell client insights at scale and improving data processing throughput by 40%.
-* Automated multi-step report generation and stakeholder distribution using **AutoGen** multi-agent workflows and **Microsoft Logic Apps**, saving 15+ manual hours per week.
-* Designed and implemented a **Python-based OCR automation service** (Azure OCR) that parsed and processed user-uploaded PDFs, reducing document processing time by 80% and increasing data extraction accuracy to 99%.
-* Engineered a responsive **React** frontend and **Flask** REST API backend, integrating embedded **Power BI** dashboards to deliver real-time operational insights, enhancing decision-making efficiency by 30%.
-* Collaborated with cross-functional product teams to integrate AI pipelines into enterprise BFSI core services, boosting client engagement by 15% and ensuring seamless cross-system compatibility.
-
-#### Project 2: Java Full Stack — Latte Rewrite & ACH Integration
-*Role: Full Stack Developer*
-
-* Developed high-throughput financial backend services using **Java Spring Boot** and dynamic UIs in **Angular** (**Angular Material** / **TypeScript**) within a **monolithic application** architecture for ACH payment integrations with Bank of America, securely processing $10M+ in quarterly transactions.
-* Engineered a custom multi-window modal manager in **Angular** mimicking Windows Explorer desktop OS behavior — dynamically orchestrating z-index depth to bring active popups to foreground and stack inactive ones, improving UX for complex financial workflows.
-* Orchestrated vulnerability remediations across 100+ critical financial REST APIs, centralizing security patches into a reusable **Maven JAR** artifact — achieving consistent compliance across 10+ microservices and reducing duplicate remediation effort by ~60%.
-* Managed background automation batch jobs in a **Linux** environment, utilizing shell scripting and **WinSCP** for secure file transfers, achieving 99.9% pipeline reliability.
+#### Call Intelligence GenAI Platform (Python, Flask, React, LangChain)
+- Built Generative AI and RAG pipelines in Python and LangChain to analyze 7,000–9,000 daily Genesys PureCloud call transcripts into SQL, improving data processing throughput by 40%.
+- Developed a React frontend and Flask REST API with embedded Power BI dashboards, improving decision-making efficiency by 30%.
+- Created an Azure OCR service for user-uploaded PDFs, reducing processing time by 80% with 99% extraction accuracy; automated reporting with AutoGen agents and Logic Apps, saving 15+ hours weekly.
 
 #### Cross-Project Contributions
-
-* Developed and maintained **Angular** (**Angular Material** / **TypeScript**) and **React** component libraries alongside RESTful APIs using **Spring Boot** and **Flask**, reducing UI development cycles by 35% and enabling seamless UI–backend integration across multiple enterprise applications.
-* Resolved 100+ application security vulnerabilities as part of Equitable's Vulnerability Remediation Team, achieving full compliance in **Veracode** security scans and internal audits.
-* Designed secure REST APIs and UI flows using **JWT-based authentication** and **role-based authorization (RBAC)**, achieving 100% pass rate in all internal security compliance audits.
-* Optimized **CI/CD pipelines** in **Azure DevOps**, slashing manual deployment overhead by **70%** and increasing release frequency by 3x.
-* Implemented centralized logging and observability using **Azure Kubernetes Service (AKS)** monitoring and loggers, reducing Mean Time to Resolution (MTTR) by 45% across distributed **microservices**.
-* Owned end-to-end **system design** across multiple enterprise applications — architecting UI/UX layouts, REST API contracts, database schemas, GitHub Actions workflows, Azure Kubernetes clusters, and AI pipeline service integrations from requirements to production deployment.
+- Designed secure REST APIs and UI flows with JWT authentication and RBAC, passing 100% of internal security audits and Veracode scans.
+- Optimized Azure DevOps CI/CD pipelines, reducing manual deployment effort by 70% and tripling release frequency; reduced MTTR by 45% through centralized logging and monitoring on AKS.
+- Built reusable Angular and React component libraries, reducing UI development cycles by 35%; owned system design from requirements to production deployment.
 
 ---
 
-## Projects & Portfolio
+## Projects
 
-### GenAI & RAG Applications
-
-#### HackerRank Orchestrate — Multimodal AI Notification Router — *[Preview Asset](assets/hackerrank_orchestrate_preview.webp)*
-*Tech: Python | Pandas | LLM Prompt Engineering | OCR (Image Analysis) | ASR (Voice Notes) | Context Graph Building | Confidence Calibration*
-
-* Engineered an end-to-end **AI-powered WhatsApp message notification router** in a 24-hour HackerRank hackathon, processing multimodal inputs (text, image posters/screenshots, and voice notes) to classify messages into `notify`, `digest`, or `mute` actions with confidence scoring.
-* Built a dynamic **context-builder** synthesizing 12+ data sources — user behavior, group metadata, business sender history, message events, and daily notification load — to produce personalized routing decisions per user.
-* Implemented **media processing pipelines** for OCR-based image analysis and ASR-based voice note transcription, enabling multimodal reasoning over non-text message content.
-
-<img src="assets/hackerrank_orchestrate_preview.webp" alt="HackerRank Orchestrate Preview" width="100%" style="border-radius: 8px; margin: 10px 0;" />
-
-#### BFSI Banking AI Copilot & Agentic RAG Pipeline — *[Live Demo](https://karthikp-mac-banking-ai-copilot.hf.space/)*
-*Tech: Python | LangChain | CRAG | FAISS Vector DB | Streamlit | Multi-LLM Orchestration (Groq API, Qwen3.6 27B) | Hugging Face*
-
-* Developed an enterprise financial assistant using a **Corrective RAG (CRAG)** pipeline with **FAISS Vector DB** semantic retrieval and a **Multi-Model LLM Orchestration** architecture &mdash; configured with **Qwen3.6 27B** (qwen/qwen3.6-27b) as the primary reasoning engine with dynamic fallback routing across Llama 3.3 and GPT-OSS to manage token limits and optimize query costs.
-* Designed modular **LangChain** retrieval chains with pluggable model-routing middleware for zero-downtime hot-swapping of LLM backends without pipeline refactoring.
-
-#### Jarvis Multimodal Voice-to-Voice AI Assistant — *[Live Demo](https://karthikp-mac-jarvis-ai-assistant.hf.space/)*
-*Tech: Vite + React | FastAPI (ASGI) | Python | WebSockets | Groq (Whisper + Qwen3.6 27B) | ONNX Runtime (Kokoro) | ElevenLabs | Docker | Hugging Face*
-
-* Engineered a real-time **Multimodal Voice-to-Voice AI Assistant** featuring a **React UI** and a **FastAPI ASGI** server handling duplex **WebSocket** streaming of raw audio packets.
-* Implemented dual-engine speech synthesis (cloud-based **ElevenLabs** and local **Kokoro-ONNX** Runtime for zero-latency voice generation) paired with Groq Whisper speech-to-text.
-* Integrated a **Multi-Model LLM Routing Layer** powered by **Groq API**, protected by a double-layered regex safety guardrail.
+- **WebRTC Video Conferencing Engine** *(React, Spring Boot, Java 21 Virtual Threads, WebSockets, Docker, Render)*: Built a peer-to-peer video platform with screen sharing and WebSocket signaling on Java 21 Virtual Threads, deployed as a Docker microservice. [[Live Demo](https://web-rtc-lq00.onrender.com/)]
+- **Real-Time WebSocket Chat Infrastructure** *(Angular, Spring Boot, STOMP, Microservices, Docker, Render)*: Built low-latency bi-directional messaging over STOMP/WebSockets with active user connection tracking. [[Live Demo](https://web-sockets-ju5x.onrender.com/)]
+- **BFSI Banking AI Copilot (Agentic RAG)** *(Python, LangChain, CRAG, FAISS, Streamlit, Groq API)*: Developed a Corrective RAG financial assistant with FAISS retrieval and multi-LLM fallback routing, allowing backend model hot-swapping without pipeline refactoring. [[Live Demo](https://karthikp-mac-banking-ai-copilot.hf.space/)]
+- **Jarvis Voice-to-Voice AI Assistant** *(React, Vite, FastAPI, WebSockets, Groq Whisper, ONNX, ElevenLabs, Docker)*: Built a real-time voice assistant with duplex WebSocket audio streaming, dual-engine speech synthesis and a regex safety guardrail. [[Live Demo](https://karthikp-mac-jarvis-ai-assistant.hf.space/)]
+- **Sticky-Notes Workspace (PWA)** *(React, Firebase Firestore, Firebase Auth (Google OAuth2), Vercel)*: Engineered a Kanban/Canvas PWA with custom drag-and-drop, Google OAuth2 login and offline Firestore sync. [[Live Demo](https://stickynotes-pk-mac.vercel.app/)]
+- **Enterprise Institution Web Portal** *(React, Node.js, Express.js, REST APIs, Bootstrap, SMTP)*: Developed a full-stack portal for course enrollment, student records, online quizzes and automated SMTP email notifications. [[Live Website](https://adarsh-computers.vercel.app/)]
+- **HackerRank Orchestrate – Multimodal AI Notification Router** *(Python, Pandas, OCR, ASR, Prompt Engineering)*: Built a 24-hour hackathon WhatsApp notification router classifying text, image and voice inputs into notify, digest or mute with confidence scoring, using a context builder over 12+ data sources. [[Preview Asset](https://raw.githubusercontent.com/KarthikP-Mac/KarthikP-Mac/main/assets/hackerrank_orchestrate_preview.webp)]
 
 ---
 
-### Real-Time Web Applications
+## Hobby Projects
 
-#### WebRTC Real-Time Video Conferencing Engine — *[Live Demo](https://web-rtc-lq00.onrender.com/)*
-*Tech: React | WebRTC | Spring Boot | Java 21 Virtual Threads | WebSockets | Docker | Render*
-
-* Developed a peer-to-peer video conferencing platform with real-time screen sharing, signaling handling, and adaptive media stream controls. Backend powered by **Java 21 Virtual Threads** (Project Loom) for high-concurrency WebSocket signaling, deployed as a containerized **Docker microservice** on Render.
-
-#### Real-Time WebSocket Chat Infrastructure — *[Live Demo](https://web-sockets-ju5x.onrender.com/)*
-*Tech: Angular | Spring Boot | WebSocket (STOMP) | Microservices | Docker | Render*
-
-* Built a real-time messaging architecture using **STOMP protocol over WebSockets**, ensuring bi-directional low-latency data flow with active user connection tracking, deployed as a containerized **Docker microservice** on Render.
-
-#### Sticky-Notes Workspace (Progressive Web App) — *[Live Demo](https://stickynotes-pk-mac.vercel.app/)*
-*Tech: React | PWA | Firebase Firestore | Firebase Auth (Google OAuth2) | LocalStorage | Vercel*
-
-* Engineered a **React PWA** digital workspace with interactive Kanban/Canvas views, custom drag-and-drop mechanics, **Google OAuth2** authentication via Firebase Auth, and **Firebase Firestore** offline data synchronization for persistent multi-tab state management.
+- **Smart Stocker – Desktop ERP & Ledger** *(Python, Tkinter, SQLite3)*: inventory ledger with analytics, stock alerts, PDF invoices.
+- **PDF Batch Processing & Document Automation Utility** *(Python, Tkinter, PyPDF)*: batch image-to-PDF conversion.
+- **System Power Automation & Task Scheduler** *(Python, Tkinter)*: schedules shutdown, sleep and lock events via JSON schedules.
 
 ---
 
-### Institutional & Full Stack Web Portals
+## Education & Languages
 
-#### Enterprise Institution Web Portal (Full Stack) — *[Live Website](https://adarsh-computers.vercel.app/)*
-*Tech: React | Node.js | Express.js | REST APIs | Bootstrap | SMTP | Vercel | Render*
+- **B.Tech in Computer Science and Engineering**, NRI Institute of Technology | Graduated: 2021 | CGPA: 7.68
+- **Languages:** English (Professional), Telugu (Native), Hindi (Professional)
 
-* Developed a full-stack web portal managing course enrollment, student records, announcements, and online quizzes using **React**, **Node.js**, **Express.js** REST APIs, and automated SMTP email notifications.
-
-#### Responsive Institution Landing Portal
-*Tech: HTML5 | CSS3 | JavaScript (ES6+) | jQuery | Bootstrap | Mobile-First UX*
-
-* Built a responsive frontend web portal featuring dynamic landing pages, mobile-first CSS layouts, cross-browser compatibility, and interactive UI components for a computer education institution.
-
----
-
-### Python Desktop Applications
-
-#### Smart Stocker — Desktop ERP & Ledger System
-*Tech: Python | Tkinter | SQLite3 | Excel (openpyxl) | Matplotlib Analytics | PDF Generation*
-
-* Designed a standalone desktop ERP and ledger system using **Python (Tkinter)** and **SQLite3**, featuring local data caching, asynchronous background auto-saves, and Matplotlib-based analytics dashboards.
-* Implemented an automated stock advisory module providing real-time stock alert thresholds and predictive profit forecasting.
-* Integrated secure PDF document compilation for automated generation of invoices, purchase orders, and monthly ledger sheets.
-
-#### PDF Batch Processing & Document Automation Utility
-*Tech: Python | Tkinter | PyPDF | Pillow | File Automation | Windows APIs*
-
-* Engineered a desktop utility using **Python (Tkinter)** to batch convert entire folders of images into high-quality, compressed PDFs with a live progress renderer.
-* Supports custom page and image ordering with a live sequence preview before exporting the final PDF.
-* Implemented selective page extraction and image-only extraction from existing PDF documents.
-
-#### System Power Automation & Task Scheduler
-*Tech: Python | Tkinter | Windows OS APIs | JSON | Task Scheduling*
-
-* Developed a system automation tool in **Python (Tkinter)** that schedules system events (shutdown, sleep, lock) via countdown timers and persistent daily schedules saved in JSON.
-* Implemented a system-overlay countdown notification in the final 5 minutes of a scheduled event with password-protected controls.
-
----
-
-## Certifications & Credentials
-
-* **Frontend Developer (React)** — HackerRank *(React Architecture, State & Hooks, Component Lifecycle)* — [Verify](https://www.hackerrank.com/certificates/cf5fd5bbb5db)
-* **Software Engineer** — HackerRank *(Data Structures, Algorithms, Software Architecture)* — [Verify](https://www.hackerrank.com/certificates/178cc7dbb188)
-* **SQL (Advanced)** — HackerRank *(Window Functions, CTEs, Complex JOINs, Query Optimization)* — [Verify](https://www.hackerrank.com/certificates/e28ff148700a)
-* **Angular (Intermediate)** — HackerRank *(Angular, TypeScript, RxJS, Reactive Forms)* — [Verify](https://www.hackerrank.com/certificates/b7f65df92357)
-* **JavaScript (Intermediate)** — HackerRank *(ES6+, Promises & Async, Closures, DOM)* — [Verify](https://www.hackerrank.com/certificates/0467c8815451)
-* **Node.js (Intermediate)** — HackerRank *(Node.js, Express.js, Asynchronous I/O)* — [Verify](https://www.hackerrank.com/certificates/cfc75f00230f)
-* **REST API (Intermediate)** — HackerRank *(RESTful APIs, HTTP Protocols, JSON, API Design)* — [Verify](https://www.hackerrank.com/certificates/571f27af280d)
-* **Python (Basic)** — HackerRank *(Python 3, OOP, Data Structures)* — [Verify](https://www.hackerrank.com/certificates/d45aabbcdc0a)
-* **Java (Basic)** — HackerRank *(Java Core, OOP Design, Collections Framework)* — [Verify](https://www.hackerrank.com/certificates/93c7356dae25)
-* **CSS** — HackerRank *(CSS3, Flexbox, CSS Grid, Responsive Layouts)* — [Verify](https://www.hackerrank.com/certificates/4346a0115e77)
-
----
-
-## Education
-
-* **B.Tech. in Computer Science & Engineering** — NRI Institute of Technology (2021) | CGPA: **7.68 / 10**
-* **Diploma in Science & Technology** — Amrita Sai Institution (2018) | **75.2%**
-* **Secondary School (SSC)** — Ravindra Bharati Public School (2015) | **82.0%**
-
----
-
-## Languages
-
-* **English:** Professional Working Proficiency
-* **Telugu:** Native / Bilingual Proficiency
-* **Hindi:** Full Professional Proficiency
